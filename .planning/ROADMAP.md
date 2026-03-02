@@ -25,7 +25,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. `skills/` directory exists at project root with all specified subdirectories
   2. Every required `.md` file exists in its correct location (templates, music, voice, sfx, tools, system-prompt)
   3. Every file opens with `# Title`, `## Purpose`, and `## Status: stub` — no filled content beyond headers
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Create root skills/, templates/, music domain skills, sfx/taxonomy.md, tools/, system-prompt.md
+- [ ] 01-02-PLAN.md — Create all ten genre stub files across skills/music/genre/
+- [ ] 01-03-PLAN.md — Create all six voice stub files across skills/voice/
 
 ### Phase 2: Schema and Content
 **Goal**: Every file conforms to its correct schema and specified files are pre-populated with full draft content
@@ -46,5 +51,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold | 0/TBD | Not started | - |
+| 1. Scaffold | 0/3 | Not started | - |
 | 2. Schema and Content | 0/TBD | Not started | - |
