@@ -30,7 +30,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 Plans:
 - [x] 01-01-PLAN.md — Create root skills/, templates/, music domain skills, sfx/taxonomy.md, tools/, system-prompt.md
 - [x] 01-02-PLAN.md — Create all ten genre stub files across skills/music/genre/
-- [ ] 01-03-PLAN.md — Create all six voice stub files across skills/voice/
+- [x] 01-03-PLAN.md — Create all six voice stub files across skills/voice/
 
 ### Phase 2: Schema and Content
 **Goal**: Every file conforms to its correct schema and specified files are pre-populated with full draft content
@@ -51,5 +51,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold | 1/3 | In progress | - |
+| 1. Scaffold | 3/3 | Complete | 2026-03-03 |
 | 2. Schema and Content | 0/TBD | Not started | - |
