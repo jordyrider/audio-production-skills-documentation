@@ -28,8 +28,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Create root skills/, templates/, music domain skills, sfx/taxonomy.md, tools/, system-prompt.md
-- [ ] 01-02-PLAN.md — Create all ten genre stub files across skills/music/genre/
+- [x] 01-01-PLAN.md — Create root skills/, templates/, music domain skills, sfx/taxonomy.md, tools/, system-prompt.md
+- [x] 01-02-PLAN.md — Create all ten genre stub files across skills/music/genre/
 - [ ] 01-03-PLAN.md — Create all six voice stub files across skills/voice/
 
 ### Phase 2: Schema and Content
@@ -51,5 +51,5 @@ Phases execute in numeric order: 1 → 2
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold | 0/3 | Not started | - |
+| 1. Scaffold | 1/3 | In progress | - |
 | 2. Schema and Content | 0/TBD | Not started | - |
