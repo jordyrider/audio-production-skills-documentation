@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-03T18:32:08.697Z"
+last_updated: "2026-03-03T22:43:38Z"
 progress:
   total_phases: 3
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 15
-  completed_plans: 12
+  completed_plans: 15
 ---
 
 # Project State
@@ -23,9 +23,9 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 3 of 3 (YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System)
-Plan: 4 of 5 in current phase (complete)
-Status: Phase 3 in progress — 03-04 complete
-Last activity: 2026-03-03 — 03-04 complete: YAML frontmatter prepended to 16 non-genre-subgenre files (3 supergenres, 1 taxonomy, 7 domain skills, 5 templates)
+Plan: 5 of 5 in current phase (complete)
+Status: ALL PHASES COMPLETE — 03-05 complete
+Last activity: 2026-03-03 — 03-05 complete: YAML frontmatter added to 13 files (7 MiniMax tool files, 5 voice category files, system-prompt.md)
 
 Progress: [██████████] 100%
 
@@ -53,6 +53,7 @@ Progress: [██████████] 100%
 | Phase 03 P02 | 2 | 2 tasks | 8 files |
 | Phase 03 P03 | 3 | 2 tasks | 10 files |
 | Phase 03 P04 | 5 | 2 tasks | 16 files |
+| Phase 03 P05 | 9 | 2 tasks | 13 files |
 
 ## Accumulated Context
 
@@ -81,6 +82,10 @@ Recent decisions affecting current work:
 - [Phase 03-02]: cinematic-piano uses hyphenated compound ID — filename is piano.md inside cinematic/ subfolder; hyphen consistent with lo-fi, alt-indie conventions
 - [Phase 03]: Stub frontmatter uses null for all content fields — not missing fields; parent: null for top-level genres
 - [Phase 03-04]: Template files use frontmatter type of their target file type — templates/genre.md has type: genre, not type: template, making them schema-validatable against the same schemas as their target files
+- [Phase 03-05]: music-2.5.md stable_styles extracted from markdown table to YAML array — enables cross-reference with genre/index.yaml IDs by CLI validator
+- [Phase 03-05]: Speech model stub files created with full stub frontmatter (parameters/stable_styles/gotchas: null) — consistent with tool schema stub exception pattern
+- [Phase 03-05]: system-prompt.md uses type: skill (not a new type) — prose-first document matching skill schema's additionalProperties: true pattern
+- [Phase 03-05]: hook-openers example_lines use double-quoted YAML strings — necessary for apostrophes and special characters in extracted lines
 
 ### Roadmap Evolution
 
@@ -97,5 +102,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed 03-04-PLAN.md — YAML frontmatter prepended to 16 non-genre-subgenre files (3 supergenres, 1 taxonomy, 7 domain skills, 5 templates) with correct types per schema
+Stopped at: Completed 03-05-PLAN.md — YAML frontmatter added to 13 files (7 MiniMax tool files, 5 voice category files, system-prompt.md). ALL 3 PHASES COMPLETE.
 Resume file: None
