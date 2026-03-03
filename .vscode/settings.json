@@ -1,0 +1,15 @@
+{
+  "yaml.schemas": {
+    "./schemas/index.schema.json": [
+      "**/index.yaml"
+    ],
+    "./schemas/genre.schema.json": [],
+    "./schemas/supergenre.schema.json": [],
+    "./schemas/tool.schema.json": [],
+    "./schemas/skill.schema.json": [],
+    "./schemas/voice-category.schema.json": []
+  },
+  "yaml.validate": true,
+  "yaml.completion": true,
+  "yaml.hover": true
+}
