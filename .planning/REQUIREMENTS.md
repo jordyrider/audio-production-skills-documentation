@@ -65,7 +65,7 @@
 - [x] **YAML-05**: Add YAML frontmatter to all 10 genre sub-genre markdown files (type: genre with all 13 fields, correct parent IDs, null content for stubs)
 - [x] **YAML-06**: Add YAML frontmatter to supergenre files (3), domain skill files (7), template files (5), and genre/taxonomy.md (1) — 16 files total
 - [x] **YAML-07**: Add YAML frontmatter to tool files (7 MiniMax), voice category files (5), and system-prompt.md — 13 files total; extract music-2.5.md structured data to frontmatter
-- [ ] **YAML-08**: Create all remaining YAML index files: skills/, music/, voice/, tools/ domain indexes and voice/tool subfolder indexes — 10 files total
+- [x] **YAML-08**: Create all remaining YAML index files: skills/, music/, voice/, tools/ domain indexes and voice/tool subfolder indexes — 10 files total
 - [ ] **YAML-09**: Create `scripts/validate-frontmatter.js` — Node CLI that validates all skills/*.md frontmatter, outputs errors in `filename:line:col: message` format, exits 1 on any error
 - [ ] **YAML-10**: Create `.vscode/settings.json` (YAML schema associations for index.yaml files) and `.vscode/tasks.json` (Validate Frontmatter task with problem matcher routing errors to Problems panel)
 
@@ -113,7 +113,7 @@
 | YAML-05 | Phase 3 | Complete |
 | YAML-06 | Phase 3 | Complete |
 | YAML-07 | Phase 3 | Complete |
-| YAML-08 | Phase 3 | Pending |
+| YAML-08 | Phase 3 | Complete |
 | YAML-09 | Phase 3 | Pending |
 | YAML-10 | Phase 3 | Pending |
 

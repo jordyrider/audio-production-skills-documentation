@@ -50,7 +50,7 @@ Plans:
 **Goal:** Every markdown file has machine-readable YAML frontmatter, every folder has an index.yaml registry, and a CLI validator + VS Code integration validates both against JSON schemas
 **Requirements**: YAML-01, YAML-02, YAML-03, YAML-04, YAML-05, YAML-06, YAML-07, YAML-08, YAML-09, YAML-10
 **Depends on:** Phase 2
-**Plans:** 5/7 plans executed
+**Plans:** 6/7 plans executed
 
 Plans:
 - [x] 03-01-PLAN.md — Create all 6 JSON schemas (genre, supergenre, tool, skill, voice-category, index)
@@ -70,4 +70,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Scaffold | 3/3 | Complete | 2026-03-03 |
 | 2. Schema and Content | 5/5 | Complete | 2026-03-03 |
-| 3. YAML + Schema + Validation | 5/7 | In Progress|  |
+| 3. YAML + Schema + Validation | 6/7 | In Progress|  |

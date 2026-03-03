@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-03T22:43:38Z"
+last_updated: "2026-03-04T00:00:00Z"
 progress:
   total_phases: 3
   completed_phases: 3
-  total_plans: 15
-  completed_plans: 15
+  total_plans: 16
+  completed_plans: 16
 ---
 
 # Project State
@@ -23,9 +23,9 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 3 of 3 (YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System)
-Plan: 5 of 5 in current phase (complete)
-Status: ALL PHASES COMPLETE — 03-05 complete
-Last activity: 2026-03-03 — 03-05 complete: YAML frontmatter added to 13 files (7 MiniMax tool files, 5 voice category files, system-prompt.md)
+Plan: 6 of 6 in current phase (complete)
+Status: ALL PHASES COMPLETE — 03-06 complete
+Last activity: 2026-03-04 — 03-06 complete: 10 remaining YAML index files created (skills, music, voice, tools, 5 voice subfolder indexes, MiniMax tool index with genre cross-references)
 
 Progress: [██████████] 100%
 
@@ -54,6 +54,7 @@ Progress: [██████████] 100%
 | Phase 03 P03 | 3 | 2 tasks | 10 files |
 | Phase 03 P04 | 5 | 2 tasks | 16 files |
 | Phase 03 P05 | 9 | 2 tasks | 13 files |
+| Phase 03 P06 | 3 | 2 tasks | 10 files |
 
 ## Accumulated Context
 
@@ -86,6 +87,9 @@ Recent decisions affecting current work:
 - [Phase 03-05]: Speech model stub files created with full stub frontmatter (parameters/stable_styles/gotchas: null) — consistent with tool schema stub exception pattern
 - [Phase 03-05]: system-prompt.md uses type: skill (not a new type) — prose-first document matching skill schema's additionalProperties: true pattern
 - [Phase 03-05]: hook-openers example_lines use double-quoted YAML strings — necessary for apostrophes and special characters in extracted lines
+- [Phase 03-06]: Voice subfolder indexes use type subgenre-index — consistent with genre subfolder convention from 03-02, leaf-level folder registry regardless of domain
+- [Phase 03-06]: Speech model entries in minimax/index.yaml omit genre_ids field — speech models are not music models; omitting signals intentional non-applicability
+- [Phase 03-06]: tools/minimax/index.yaml has type tools-index (same as tools/index.yaml) — tool folders use same type at all hierarchy levels
 
 ### Roadmap Evolution
 
@@ -101,6 +105,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-03
-Stopped at: Completed 03-05-PLAN.md — YAML frontmatter added to 13 files (7 MiniMax tool files, 5 voice category files, system-prompt.md). ALL 3 PHASES COMPLETE.
+Last session: 2026-03-04
+Stopped at: Completed 03-06-PLAN.md — 10 remaining YAML index files created (skills, music, voice, tools domain indexes + 5 voice subfolder indexes + MiniMax tool index). ALL 3 PHASES COMPLETE.
 Resume file: None
