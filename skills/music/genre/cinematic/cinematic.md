@@ -1,3 +1,19 @@
+---
+type: genre
+status: stub
+parent: null
+mood: null
+bpm_range: null
+tags: null
+instrumentation: null
+effects: null
+canva_use_cases: null
+prompting_rules: null
+validated_patterns: null
+known_limitations: null
+still_testing: null
+---
+
 # Cinematic
 
 ## Purpose
@@ -10,6 +26,10 @@ Genre skill covering cinematic music characteristics and prompting patterns.
 ## Canva Use Cases
 
 ## Sonic DNA
+
+## Instrumentation
+
+## Effects
 
 ## Prompting Patterns
 
