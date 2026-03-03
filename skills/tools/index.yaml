@@ -1,0 +1,10 @@
+folder: skills/tools
+type: tools-index
+files: []
+sub_folders:
+  - id: minimax
+    folder: skills/tools/minimax
+    title: "MiniMax"
+  - id: elevenlabs
+    folder: skills/tools/elevenlabs
+    title: "ElevenLabs"

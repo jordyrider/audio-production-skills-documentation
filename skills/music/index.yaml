@@ -1,0 +1,37 @@
+folder: skills/music
+type: music-index
+files:
+  - id: effects
+    file: effects.md
+    type: skill
+    status: stub
+    title: "Effects"
+    description: "Audio effects and processing characteristics"
+  - id: instruments
+    file: instruments.md
+    type: skill
+    status: stub
+    title: "Instruments"
+    description: "Instrument characteristics and prompting vocabulary"
+  - id: keys-and-mood
+    file: keys-and-mood.md
+    type: skill
+    status: stub
+    title: "Keys and Mood"
+    description: "Musical keys and their emotional character"
+  - id: structure-and-arrangement
+    file: structure-and-arrangement.md
+    type: skill
+    status: stub
+    title: "Structure and Arrangement"
+    description: "Song structure and arrangement patterns"
+  - id: tempo
+    file: tempo.md
+    type: skill
+    status: stub
+    title: "Tempo"
+    description: "Tempo ranges, BPM guidance, and rhythmic feel"
+sub_folders:
+  - id: genre
+    folder: skills/music/genre
+    title: "Genre"

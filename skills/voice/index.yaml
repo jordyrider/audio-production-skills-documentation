@@ -1,0 +1,25 @@
+folder: skills/voice
+type: voice-index
+files:
+  - id: characteristics
+    file: characteristics.md
+    type: skill
+    status: stub
+    title: "Voice Characteristics"
+    description: "General voice characteristics and tonal vocabulary"
+sub_folders:
+  - id: hook-openers
+    folder: skills/voice/hook-openers
+    title: "Hook Openers"
+  - id: cta-promo
+    folder: skills/voice/cta-promo
+    title: "CTA / Promo"
+  - id: meme-quotes
+    folder: skills/voice/meme-quotes
+    title: "Meme / Quotes"
+  - id: pov-relatable
+    folder: skills/voice/pov-relatable
+    title: "POV / Relatable"
+  - id: instructional
+    folder: skills/voice/instructional
+    title: "Instructional"

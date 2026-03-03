@@ -1,0 +1,25 @@
+folder: skills
+type: skills-index
+files:
+  - id: system-prompt
+    file: system-prompt.md
+    type: skill
+    status: draft
+    title: "System Prompt"
+    description: "Master Claude system prompt for audio production workflow context"
+sub_folders:
+  - id: music
+    folder: skills/music
+    title: "Music"
+  - id: voice
+    folder: skills/voice
+    title: "Voice"
+  - id: tools
+    folder: skills/tools
+    title: "Tools"
+  - id: sfx
+    folder: skills/sfx
+    title: "SFX"
+  - id: templates
+    folder: skills/templates
+    title: "Templates"
