@@ -39,11 +39,11 @@
 
 ### System Prompt
 
-- [ ] **SYS-01**: `skills/system-prompt.md` is a written master Claude system prompt that provides full audio prompting workflow context for use in the Electron app
+- [x] **SYS-01**: `skills/system-prompt.md` is a written master Claude system prompt that provides full audio prompting workflow context for use in the Electron app
 
 ### Output
 
-- [ ] **OUT-01**: Print complete file tree of all created files with their status after scaffolding completes
+- [x] **OUT-01**: Print complete file tree of all created files with their status after scaffolding completes
 
 ## v2 Requirements
 
@@ -88,8 +88,8 @@
 | TMPL-02 | Phase 2 | Complete |
 | TMPL-03 | Phase 2 | Complete |
 | TMPL-04 | Phase 2 | Complete |
-| SYS-01 | Phase 2 | Pending |
-| OUT-01 | Phase 2 | Pending |
+| SYS-01 | Phase 2 | Complete |
+| OUT-01 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 22 total

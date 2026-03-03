@@ -13,7 +13,7 @@ Two phases deliver the complete `skills/` knowledge base. Phase 1 creates the di
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Scaffold** - Create all directories and empty files in the `skills/` tree
-- [ ] **Phase 2: Schema and Content** - Apply schemas, populate specified content, print file tree
+- [x] **Phase 2: Schema and Content** - Apply schemas, populate specified content, print file tree (completed 2026-03-03)
 
 ## Phase Details
 
@@ -52,4 +52,4 @@ Phases execute in numeric order: 1 → 2
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Scaffold | 3/3 | Complete | 2026-03-03 |
-| 2. Schema and Content | 4/5 | In Progress|  |
+| 2. Schema and Content | 5/5 | Complete   | 2026-03-03 |

@@ -3,10 +3,10 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-03T00:27:00Z"
+last_updated: "2026-03-03T00:28:36.847Z"
 progress:
   total_phases: 2
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 8
   completed_plans: 8
 ---
@@ -23,11 +23,11 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 2 of 2 (Schema and Content)
-Plan: 6 of TBD in current phase
-Status: Active execution — 02-02 complete
-Last activity: 2026-03-03 — 02-02 complete: tools/ restructured to provider/model layout; MiniMax Music-2.5 full draft created; 6 ElevenLabs speech stubs created
+Plan: 5 of 5 in current phase (complete)
+Status: Phase 2 complete — 02-05 complete
+Last activity: 2026-03-03 — 02-05 complete: system-prompt.md written as master context document with routing guide; 33-file knowledge base tree confirmed
 
-Progress: [██████░░░░] 60%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -48,6 +48,7 @@ Progress: [██████░░░░] 60%
 
 *Updated after each plan completion*
 | Phase 02-schema-and-content P01 | 2 | 2 tasks | 4 files |
+| Phase 02-schema-and-content P05 | 1 | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -64,6 +65,8 @@ Recent decisions affecting current work:
 - [Phase 02-schema-and-content]: voice-category.md preserves two ## Purpose sections — first is file metadata, second is the schema field for voice category files
 - [Phase 02-schema-and-content]: tools/ restructure locked — flat provider files replaced with tools/{provider}/{model}.md hierarchy; model file owns parameters and formula, category files own content
 - [Phase 02-schema-and-content]: ElevenLabs music and sfx model files deferred — full model list not yet available, only 6 speech models created
+- [Phase 02-schema-and-content]: system-prompt.md uses descriptive routing only — no explicit file paths, which avoids path staleness and stays model-agnostic
+- [Phase 02-schema-and-content]: Status values (stub/draft/validated) documented in system-prompt.md so Claude surfaces maturity warnings automatically
 
 ### Pending Todos
 
@@ -76,5 +79,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed 02-02-PLAN.md — tools/ restructured to provider/model layout; MiniMax Music-2.5 full draft; 6 ElevenLabs speech stubs created
+Stopped at: Completed 02-05-PLAN.md — system-prompt.md written as master context document with routing guide; 33-file knowledge base tree confirmed
 Resume file: None
