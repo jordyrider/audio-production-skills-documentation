@@ -22,7 +22,7 @@
 - [x] **FILE-02**: Genre files use genre.md template schema (Parent Genre, Canva Use Cases, Sonic DNA, Prompting Patterns, MiniMax, Validated Patterns, Known Limitations, Still Testing)
 - [x] **FILE-03**: Voice category files use voice-category.md template schema (Purpose, Delivery Style, Example Lines, ElevenLabs sections)
 - [ ] **FILE-04**: Tool files use tool.md template schema (Prompt Formula, Parameters, Stable Keywords, Gotchas, Output Format, Validated Patterns, Known Limitations)
-- [ ] **FILE-05**: Domain skill files (keys-and-mood, tempo, arrangement, structure, sfx/taxonomy, voice/characteristics) use skill.md template schema (Purpose, Sub-skills, Core Concepts, Translation Layer)
+- [x] **FILE-05**: Domain skill files (keys-and-mood, tempo, arrangement, structure, sfx/taxonomy, voice/characteristics) use skill.md template schema (Purpose, Sub-skills, Core Concepts, Translation Layer)
 
 ### Pre-populated Content
 
@@ -32,10 +32,10 @@
 
 ### Templates
 
-- [ ] **TMPL-01**: `skills/templates/genre.md` contains the genre.md schema as a reference template
-- [ ] **TMPL-02**: `skills/templates/tool.md` contains the tool.md schema as a reference template
-- [ ] **TMPL-03**: `skills/templates/voice-category.md` contains the voice-category.md schema as a reference template
-- [ ] **TMPL-04**: `skills/templates/skill.md` contains the skill.md schema as a reference template
+- [x] **TMPL-01**: `skills/templates/genre.md` contains the genre.md schema as a reference template
+- [x] **TMPL-02**: `skills/templates/tool.md` contains the tool.md schema as a reference template
+- [x] **TMPL-03**: `skills/templates/voice-category.md` contains the voice-category.md schema as a reference template
+- [x] **TMPL-04**: `skills/templates/skill.md` contains the skill.md schema as a reference template
 
 ### System Prompt
 
@@ -80,14 +80,14 @@
 | FILE-02 | Phase 2 | Complete |
 | FILE-03 | Phase 2 | Complete |
 | FILE-04 | Phase 2 | Pending |
-| FILE-05 | Phase 2 | Pending |
+| FILE-05 | Phase 2 | Complete |
 | CONT-01 | Phase 2 | Pending |
 | CONT-02 | Phase 2 | Pending |
 | CONT-03 | Phase 2 | Complete |
-| TMPL-01 | Phase 2 | Pending |
-| TMPL-02 | Phase 2 | Pending |
-| TMPL-03 | Phase 2 | Pending |
-| TMPL-04 | Phase 2 | Pending |
+| TMPL-01 | Phase 2 | Complete |
+| TMPL-02 | Phase 2 | Complete |
+| TMPL-03 | Phase 2 | Complete |
+| TMPL-04 | Phase 2 | Complete |
 | SYS-01 | Phase 2 | Pending |
 | OUT-01 | Phase 2 | Pending |
 
