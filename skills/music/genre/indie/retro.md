@@ -13,8 +13,6 @@ Genre skill covering retro music characteristics and prompting patterns.
 
 ## Prompting Patterns
 
-## MiniMax
-
 ## Validated Patterns
 
 ## Known Limitations

@@ -13,8 +13,6 @@ Genre skill covering synthwave music characteristics and prompting patterns.
 
 ## Prompting Patterns
 
-## MiniMax
-
 ## Validated Patterns
 
 ## Known Limitations
