@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Folder Index",
+  "description": "Per-folder registry of files and sub-folders in the skills knowledge base",
+  "type": "object",
+  "required": ["folder", "type", "files"],
+  "properties": {
+    "folder": {
+      "type": "string",
+      "description": "Relative path of this folder from project root"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["genre-index", "music-index", "voice-index", "tools-index", "skills-index", "subgenre-index"],
+      "description": "What kind of index this is"
+    },
+    "files": {
+      "type": "array",
+      "description": "Files in this folder",
+      "items": {
+        "type": "object",
+        "required": ["id", "file", "type", "status"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable identifier for cross-referencing (e.g. 'lo-fi', 'music-2.5')"
+          },
+          "file": {
+            "type": "string",
+            "description": "Filename (not full path)"
+          },
+          "type": {
+            "type": "string",
+            "description": "File type (genre, supergenre, tool, skill, voice-category)"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["stub", "draft", "validated"],
+            "description": "Maturity level of this file"
+          },
+          "title": {
+            "type": "string",
+            "description": "Human-readable title for this entry"
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief description of this entry"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sub_folders": {
+      "type": "array",
+      "description": "Sub-folders within this folder (optional)",
+      "items": {
+        "type": "object",
+        "required": ["id", "folder"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Stable identifier for this sub-folder"
+          },
+          "folder": {
+            "type": "string",
+            "description": "Relative path of this sub-folder from project root"
+          },
+          "title": {
+            "type": "string",
+            "description": "Human-readable title for this sub-folder"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
