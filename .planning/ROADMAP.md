@@ -53,7 +53,7 @@ Plans:
 **Plans:** 7 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — Create all 6 JSON schemas (genre, supergenre, tool, skill, voice-category, index)
+- [x] 03-01-PLAN.md — Create all 6 JSON schemas (genre, supergenre, tool, skill, voice-category, index)
 - [ ] 03-02-PLAN.md — Create genre YAML indexes (authoritative genre/index.yaml + 7 subfolder indexes)
 - [ ] 03-03-PLAN.md — Add frontmatter to 10 genre sub-genre markdown files
 - [ ] 03-04-PLAN.md — Add frontmatter to supergenre files, skill files, and template files (16 files)
@@ -70,4 +70,4 @@ Phases execute in numeric order: 1 → 2 → 3
 |-------|----------------|--------|-----------|
 | 1. Scaffold | 3/3 | Complete | 2026-03-03 |
 | 2. Schema and Content | 5/5 | Complete | 2026-03-03 |
-| 3. YAML + Schema + Validation | 0/7 | Planned | — |
+| 3. YAML + Schema + Validation | 1/7 | In Progress | — |
