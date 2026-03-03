@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 2 of 2 (Schema and Content)
-Plan: 0 of TBD in current phase
-Status: Phase 2 context gathered — ready for planning
-Last activity: 2026-03-03 — Phase 2 context captured: tools/ restructure, file relationship decisions, MiniMax content, hook opener lines
+Plan: 5 of TBD in current phase
+Status: Active execution — 02-04 complete
+Last activity: 2026-03-03 — 02-04 complete: voice category schema verified for all 5 files; hook-openers.md populated with 13 locked example lines
 
 Progress: [█████░░░░░] 50%
 
@@ -45,6 +45,7 @@ Recent decisions affecting current work:
 - `skills/` as subfolder at project root — keeps knowledge base isolated from .planning and .claude meta files
 - `system-prompt.md` is a written master prompt, not a stub — it is the entry point for Claude's audio prompting context
 - Status system: stub → draft → validated — prevents unvalidated content from being treated as reliable
+- Genre files are cross-model (no tool-specific sections) — MiniMax prompt formula lives only in tools/minimax/music-2.5.md
 
 ### Pending Todos
 
@@ -57,5 +58,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed 01-03-PLAN.md — all six voice stubs created, Phase 1 scaffold complete
+Stopped at: Completed 02-03-PLAN.md — ## MiniMax removed from all 10 genre stubs, DRY enforced
 Resume file: None

@@ -19,7 +19,7 @@
 ### File Standards
 
 - [ ] **FILE-01**: Every file has `# Title`, `## Purpose`, `## Status: stub`, and relevant placeholder section headers — no filled content beyond headers
-- [ ] **FILE-02**: Genre files use genre.md template schema (Parent Genre, Canva Use Cases, Sonic DNA, Prompting Patterns, MiniMax, Validated Patterns, Known Limitations, Still Testing)
+- [x] **FILE-02**: Genre files use genre.md template schema (Parent Genre, Canva Use Cases, Sonic DNA, Prompting Patterns, MiniMax, Validated Patterns, Known Limitations, Still Testing)
 - [ ] **FILE-03**: Voice category files use voice-category.md template schema (Purpose, Delivery Style, Example Lines, ElevenLabs sections)
 - [ ] **FILE-04**: Tool files use tool.md template schema (Prompt Formula, Parameters, Stable Keywords, Gotchas, Output Format, Validated Patterns, Known Limitations)
 - [ ] **FILE-05**: Domain skill files (keys-and-mood, tempo, arrangement, structure, sfx/taxonomy, voice/characteristics) use skill.md template schema (Purpose, Sub-skills, Core Concepts, Translation Layer)
@@ -77,7 +77,7 @@
 | SCAF-07 | Phase 1 | Pending |
 | SCAF-08 | Phase 1 | Pending |
 | FILE-01 | Phase 1 | Pending |
-| FILE-02 | Phase 2 | Pending |
+| FILE-02 | Phase 2 | Complete |
 | FILE-03 | Phase 2 | Pending |
 | FILE-04 | Phase 2 | Pending |
 | FILE-05 | Phase 2 | Pending |
