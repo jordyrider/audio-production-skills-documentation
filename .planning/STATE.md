@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Claude has enough structured, validated knowledge to generate precise, tool-ready prompts from a creative brief without guessing.
-**Current focus:** Phase 1 - Scaffold
+**Current focus:** Phase 2 - Schema and Content
 
 ## Current Position
 
-Phase: 1 of 2 (Scaffold)
-Plan: 3 of 3 in current phase
-Status: Phase 1 complete
-Last activity: 2026-03-03 — Plan 01-03 complete: all six voice stubs created across skills/voice/
+Phase: 2 of 2 (Schema and Content)
+Plan: 0 of TBD in current phase
+Status: Phase 2 context gathered — ready for planning
+Last activity: 2026-03-03 — Phase 2 context captured: tools/ restructure, file relationship decisions, MiniMax content, hook opener lines
 
 Progress: [█████░░░░░] 50%
 
