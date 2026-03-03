@@ -1,3 +1,8 @@
+---
+type: skill
+status: stub
+---
+
 # Skill Template
 
 ## Purpose

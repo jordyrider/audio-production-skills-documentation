@@ -1,9 +1,25 @@
+---
+type: tool
+status: stub
+provider: null
+model: null
+parameters: null
+stable_styles: null
+gotchas: null
+---
+
 # Tool Template
 
 ## Purpose
 Reference schema for all tool skill files.
 
 ## Status: stub
+
+## Provider
+The company or service that provides this tool.
+
+## Model
+The specific model name/version this file documents.
 
 ## Prompt Formula
 The structural pattern for composing prompts for this tool. Include the component order, required vs. optional elements, and an example using the formula.
