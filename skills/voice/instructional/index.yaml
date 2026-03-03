@@ -1,0 +1,9 @@
+folder: skills/voice/instructional
+type: subgenre-index
+files:
+  - id: instructional
+    file: instructional.md
+    type: voice-category
+    status: stub
+    title: "Instructional"
+    description: "Tutorial, how-to, and instructional voice delivery"

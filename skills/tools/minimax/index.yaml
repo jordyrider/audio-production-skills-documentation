@@ -1,0 +1,58 @@
+# MiniMax model registry
+# genre_ids reference authoritative IDs from skills/music/genre/index.yaml
+folder: skills/tools/minimax
+type: tools-index
+files:
+  - id: music-2.5
+    file: music-2.5.md
+    type: tool
+    status: draft
+    title: "MiniMax Music-2.5"
+    description: "MiniMax AI music generation model — prompt formula, parameters, stable styles"
+    genre_ids:
+      - indie
+      - retro
+      - synthwave
+      - cinematic
+      - cinematic-piano
+      - corporate
+      - lo-fi
+      - pop
+      - funk
+      - utility
+  - id: speech-02-hd
+    file: speech-02-hd.md
+    type: tool
+    status: stub
+    title: "MiniMax Speech-02-HD"
+    description: "MiniMax text-to-speech model — HD quality"
+  - id: speech-02-turbo
+    file: speech-02-turbo.md
+    type: tool
+    status: stub
+    title: "MiniMax Speech-02-Turbo"
+    description: "MiniMax text-to-speech model — Turbo (fast) variant"
+  - id: speech-2.6-hd
+    file: speech-2.6-hd.md
+    type: tool
+    status: stub
+    title: "MiniMax Speech-2.6-HD"
+    description: "MiniMax text-to-speech model — 2.6 HD quality"
+  - id: speech-2.6-turbo
+    file: speech-2.6-turbo.md
+    type: tool
+    status: stub
+    title: "MiniMax Speech-2.6-Turbo"
+    description: "MiniMax text-to-speech model — 2.6 Turbo variant"
+  - id: speech-2.8-hd
+    file: speech-2.8-hd.md
+    type: tool
+    status: stub
+    title: "MiniMax Speech-2.8-HD"
+    description: "MiniMax text-to-speech model — 2.8 HD quality"
+  - id: speech-2.8-turbo
+    file: speech-2.8-turbo.md
+    type: tool
+    status: stub
+    title: "MiniMax Speech-2.8-Turbo"
+    description: "MiniMax text-to-speech model — 2.8 Turbo variant"

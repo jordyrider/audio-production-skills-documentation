@@ -1,0 +1,9 @@
+folder: skills/voice/hook-openers
+type: subgenre-index
+files:
+  - id: hook-openers
+    file: hook-openers.md
+    type: voice-category
+    status: stub
+    title: "Hook Openers"
+    description: "High-energy, curiosity-driven opening hooks for short-form content"
