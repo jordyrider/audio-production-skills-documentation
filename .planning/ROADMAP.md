@@ -14,6 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Scaffold** - Create all directories and empty files in the `skills/` tree
 - [x] **Phase 2: Schema and Content** - Apply schemas, populate specified content, print file tree (completed 2026-03-03)
+- [ ] **Phase 3: YAML index files, JSON schema, and markdown frontmatter validation system**
 
 ## Phase Details
 
@@ -44,12 +45,29 @@ Plans:
   5. `skills/system-prompt.md` is a complete, written master system prompt (not a stub) and a full file tree with status is printed to confirm completion
 **Plans**: TBD
 
+### Phase 3: YAML index files, JSON schema, and markdown frontmatter validation system
+
+**Goal:** Every markdown file has machine-readable YAML frontmatter, every folder has an index.yaml registry, and a CLI validator + VS Code integration validates both against JSON schemas
+**Requirements**: YAML-01, YAML-02, YAML-03, YAML-04, YAML-05, YAML-06, YAML-07, YAML-08, YAML-09, YAML-10
+**Depends on:** Phase 2
+**Plans:** 7 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — Create all 6 JSON schemas (genre, supergenre, tool, skill, voice-category, index)
+- [ ] 03-02-PLAN.md — Create genre YAML indexes (authoritative genre/index.yaml + 7 subfolder indexes)
+- [ ] 03-03-PLAN.md — Add frontmatter to 10 genre sub-genre markdown files
+- [ ] 03-04-PLAN.md — Add frontmatter to supergenre files, skill files, and template files (16 files)
+- [ ] 03-05-PLAN.md — Add frontmatter to tool files, voice category files, and system-prompt.md (13 files)
+- [ ] 03-06-PLAN.md — Create remaining YAML index files: skills/, music/, voice/, tools/ domains (10 files)
+- [ ] 03-07-PLAN.md — CLI validator script + VS Code settings and tasks integration
+
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2
+Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Scaffold | 3/3 | Complete | 2026-03-03 |
-| 2. Schema and Content | 5/5 | Complete   | 2026-03-03 |
+| 2. Schema and Content | 5/5 | Complete | 2026-03-03 |
+| 3. YAML + Schema + Validation | 0/7 | Planned | — |

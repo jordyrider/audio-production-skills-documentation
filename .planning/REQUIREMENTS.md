@@ -54,6 +54,21 @@
 - **V2-03**: Populate voice category files with ElevenLabs-specific guidance and additional example lines
 - **V2-04**: Populate keys-and-mood, tempo, arrangement, structure skills with core concepts
 
+## Phase 3 Requirements
+
+### YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System
+
+- [ ] **YAML-01**: Create `schemas/genre.schema.json` — JSON schema for genre sub-genre files with all 13 frontmatter fields and stub exception
+- [ ] **YAML-02**: Create `schemas/supergenre.schema.json`, `schemas/tool.schema.json`, `schemas/skill.schema.json`, `schemas/voice-category.schema.json`, `schemas/index.schema.json` — complete set of 6 JSON schemas
+- [ ] **YAML-03**: Create `skills/music/genre/index.yaml` — authoritative genre ID registry, listing all genre IDs referenced by tool files
+- [ ] **YAML-04**: Create per-subfolder `index.yaml` files for all 7 genre subfolders (alt-indie, cinematic, corporate, downtempo, pop, rnb, utility)
+- [ ] **YAML-05**: Add YAML frontmatter to all 10 genre sub-genre markdown files (type: genre with all 13 fields, correct parent IDs, null content for stubs)
+- [ ] **YAML-06**: Add YAML frontmatter to supergenre files (3), domain skill files (7), template files (5), and genre/taxonomy.md (1) — 16 files total
+- [ ] **YAML-07**: Add YAML frontmatter to tool files (7 MiniMax), voice category files (5), and system-prompt.md — 13 files total; extract music-2.5.md structured data to frontmatter
+- [ ] **YAML-08**: Create all remaining YAML index files: skills/, music/, voice/, tools/ domain indexes and voice/tool subfolder indexes — 10 files total
+- [ ] **YAML-09**: Create `scripts/validate-frontmatter.js` — Node CLI that validates all skills/*.md frontmatter, outputs errors in `filename:line:col: message` format, exits 1 on any error
+- [ ] **YAML-10**: Create `.vscode/settings.json` (YAML schema associations for index.yaml files) and `.vscode/tasks.json` (Validate Frontmatter task with problem matcher routing errors to Problems panel)
+
 ## Out of Scope
 
 | Feature | Reason |
@@ -62,7 +77,8 @@
 | Non-markdown formats | Markdown-only knowledge base |
 | UI / app / interface work | Files consumed by existing Electron app |
 | Audio generation | This is prompting documentation only |
-| Validation/testing workflows | Out of scope for scaffolding phase |
+| Pre-commit hook for validation | Run on demand only — per CONTEXT.md decision |
+| sfx/ or templates/ index files | Single-file / template-only folders — not data domains needing registry |
 
 ## Traceability
 
@@ -90,12 +106,21 @@
 | TMPL-04 | Phase 2 | Complete |
 | SYS-01 | Phase 2 | Complete |
 | OUT-01 | Phase 2 | Complete |
+| YAML-01 | Phase 3 | Pending |
+| YAML-02 | Phase 3 | Pending |
+| YAML-03 | Phase 3 | Pending |
+| YAML-04 | Phase 3 | Pending |
+| YAML-05 | Phase 3 | Pending |
+| YAML-06 | Phase 3 | Pending |
+| YAML-07 | Phase 3 | Pending |
+| YAML-08 | Phase 3 | Pending |
+| YAML-09 | Phase 3 | Pending |
+| YAML-10 | Phase 3 | Pending |
 
 **Coverage:**
-- v1 requirements: 22 total
-- Mapped to phases: 22
-- Unmapped: 0 ✓
+- v1 requirements: 22 total — mapped to phases: 22 — unmapped: 0 ✓
+- Phase 3 requirements: 10 total — mapped to plans: 10 — unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-03*
-*Last updated: 2026-03-03 — traceability updated to reflect 2-phase roadmap*
+*Last updated: 2026-03-03 — Phase 3 requirements added (YAML-01 through YAML-10)*
