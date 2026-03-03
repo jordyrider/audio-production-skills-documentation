@@ -3,7 +3,7 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-03T04:56:02Z"
+last_updated: "2026-03-03T04:59:43Z"
 progress:
   total_phases: 3
   completed_phases: 2
@@ -23,9 +23,9 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 3 of 3 (YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System)
-Plan: 1 of 5 in current phase (complete)
-Status: Phase 3 in progress — 03-01 complete
-Last activity: 2026-03-03 — 03-01 complete: six JSON Schema draft-07 files created for all knowledge base file types with stub exception and cross-reference id field
+Plan: 2 of 5 in current phase (complete)
+Status: Phase 3 in progress — 03-02 complete
+Last activity: 2026-03-03 — 03-02 complete: eight genre YAML index files created (1 top-level genre-index + 7 subgenre-indexes) covering all 15 stable genre IDs
 
 Progress: [██████████] 100%
 
@@ -50,6 +50,7 @@ Progress: [██████████] 100%
 | Phase 02-schema-and-content P01 | 2 | 2 tasks | 4 files |
 | Phase 02-schema-and-content P05 | 1 | 2 tasks | 1 files |
 | Phase 03 P01 | 2 | 2 tasks | 6 files |
+| Phase 03 P02 | 2 | 2 tasks | 8 files |
 
 ## Accumulated Context
 
@@ -73,6 +74,9 @@ Recent decisions affecting current work:
 - [Phase 03-01]: genre.schema.json requires parent always — a missing parent is a cross-reference error regardless of stub status
 - [Phase 03-01]: index type enum is explicit (genre-index, music-index, voice-index, tools-index, skills-index, subgenre-index)
 - [Phase 03-01]: validated_patterns uses oneOf [array, null] — cleanly handles null-or-shaped-array case
+- [Phase 03-02]: genre/index.yaml type is genre-index (not subgenre-index) — top-level index is the authoritative ID registry, distinct from subfolder indexes
+- [Phase 03-02]: Comment block at top of genre/index.yaml documents all 15 cross-reference IDs — tool index authors can copy IDs without traversing subfolders
+- [Phase 03-02]: cinematic-piano uses hyphenated compound ID — filename is piano.md inside cinematic/ subfolder; hyphen consistent with lo-fi, alt-indie conventions
 
 ### Roadmap Evolution
 
@@ -89,5 +93,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed 03-01-PLAN.md — six JSON Schema draft-07 files created in schemas/ covering genre, supergenre, tool, skill, voice-category, and index file types
+Stopped at: Completed 03-02-PLAN.md — eight genre YAML index files created covering all genre subfolders with 15 stable cross-reference IDs
 Resume file: None
