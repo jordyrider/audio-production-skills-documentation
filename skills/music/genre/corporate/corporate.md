@@ -13,8 +13,6 @@ Genre skill covering corporate background music characteristics and prompting pa
 
 ## Prompting Patterns
 
-## MiniMax
-
 ## Validated Patterns
 
 ## Known Limitations

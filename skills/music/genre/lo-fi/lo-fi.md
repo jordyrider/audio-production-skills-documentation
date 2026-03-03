@@ -13,8 +13,6 @@ Genre skill covering lo-fi hip hop characteristics and prompting patterns.
 
 ## Prompting Patterns
 
-## MiniMax
-
 ## Validated Patterns
 
 ## Known Limitations

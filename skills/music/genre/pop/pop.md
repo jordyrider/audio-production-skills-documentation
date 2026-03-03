@@ -13,8 +13,6 @@ Genre skill covering pop music characteristics and prompting patterns.
 
 ## Prompting Patterns
 
-## MiniMax
-
 ## Validated Patterns
 
 ## Known Limitations
