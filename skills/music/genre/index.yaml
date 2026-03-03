@@ -1,0 +1,39 @@
+# Genre ID Registry — Authoritative source of genre IDs
+# Tool indexes reference these IDs in stable_styles entries.
+# Genre IDs (use in cross-references):
+#   Genre sub-genres: indie, retro, synthwave, cinematic, cinematic-piano,
+#     corporate, lo-fi, pop, funk, utility
+#   Supergenres: alt-indie, downtempo, rnb
+#   Skill file: genre-taxonomy
+
+folder: skills/music/genre
+type: genre-index
+files:
+  - id: genre-taxonomy
+    file: taxonomy.md
+    type: skill
+    status: draft
+    title: "Genre Taxonomy"
+    description: "Master reference for music genre coverage — super-genre hierarchy from musicmap.info"
+sub_folders:
+  - id: alt-indie
+    folder: skills/music/genre/alt-indie
+    title: "Rock: Alternative / Indie (Rock)"
+  - id: cinematic
+    folder: skills/music/genre/cinematic
+    title: "Cinematic"
+  - id: corporate
+    folder: skills/music/genre/corporate
+    title: "Corporate"
+  - id: downtempo
+    folder: skills/music/genre/downtempo
+    title: "Downtempo / Ambient"
+  - id: pop
+    folder: skills/music/genre/pop
+    title: "Pop"
+  - id: rnb
+    folder: skills/music/genre/rnb
+    title: "Rhythm 'n' Blues (R&B)"
+  - id: utility
+    folder: skills/music/genre/utility
+    title: "Utility"
