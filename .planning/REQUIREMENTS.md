@@ -20,7 +20,7 @@
 
 - [ ] **FILE-01**: Every file has `# Title`, `## Purpose`, `## Status: stub`, and relevant placeholder section headers — no filled content beyond headers
 - [x] **FILE-02**: Genre files use genre.md template schema (Parent Genre, Canva Use Cases, Sonic DNA, Prompting Patterns, MiniMax, Validated Patterns, Known Limitations, Still Testing)
-- [ ] **FILE-03**: Voice category files use voice-category.md template schema (Purpose, Delivery Style, Example Lines, ElevenLabs sections)
+- [x] **FILE-03**: Voice category files use voice-category.md template schema (Purpose, Delivery Style, Example Lines, ElevenLabs sections)
 - [ ] **FILE-04**: Tool files use tool.md template schema (Prompt Formula, Parameters, Stable Keywords, Gotchas, Output Format, Validated Patterns, Known Limitations)
 - [ ] **FILE-05**: Domain skill files (keys-and-mood, tempo, arrangement, structure, sfx/taxonomy, voice/characteristics) use skill.md template schema (Purpose, Sub-skills, Core Concepts, Translation Layer)
 
@@ -28,7 +28,7 @@
 
 - [ ] **CONT-01**: `tools/minimax.md` pre-populated with full draft content: Prompt Formula, Parameters (BPM, Mode, Structure labels), Stable Keywords, Gotchas (BPM ±10, 1-min cap, humming caveat, project-specific rules), Output Format block, stub Validated/Limitations sections
 - [ ] **CONT-02**: `tools/elevenlabs.md` pre-populated with stub content: Purpose, Tonal Variants, stub Parameters/Keywords/Gotchas/Output Format sections
-- [ ] **CONT-03**: `voice/hook-openers/hook-openers.md` includes all 13 specified example lines under `## Example Lines`
+- [x] **CONT-03**: `voice/hook-openers/hook-openers.md` includes all 13 specified example lines under `## Example Lines`
 
 ### Templates
 
@@ -78,12 +78,12 @@
 | SCAF-08 | Phase 1 | Pending |
 | FILE-01 | Phase 1 | Pending |
 | FILE-02 | Phase 2 | Complete |
-| FILE-03 | Phase 2 | Pending |
+| FILE-03 | Phase 2 | Complete |
 | FILE-04 | Phase 2 | Pending |
 | FILE-05 | Phase 2 | Pending |
 | CONT-01 | Phase 2 | Pending |
 | CONT-02 | Phase 2 | Pending |
-| CONT-03 | Phase 2 | Pending |
+| CONT-03 | Phase 2 | Complete |
 | TMPL-01 | Phase 2 | Pending |
 | TMPL-02 | Phase 2 | Pending |
 | TMPL-03 | Phase 2 | Pending |

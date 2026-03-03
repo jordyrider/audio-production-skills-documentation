@@ -52,4 +52,4 @@ Phases execute in numeric order: 1 → 2
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Scaffold | 3/3 | Complete | 2026-03-03 |
-| 2. Schema and Content | 2/5 | In Progress|  |
+| 2. Schema and Content | 3/5 | In Progress|  |

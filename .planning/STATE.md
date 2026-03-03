@@ -58,5 +58,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed 02-03-PLAN.md — ## MiniMax removed from all 10 genre stubs, DRY enforced
+Stopped at: Completed 02-04-PLAN.md — voice category schema verified, hook-openers.md populated with 13 example lines
 Resume file: None
