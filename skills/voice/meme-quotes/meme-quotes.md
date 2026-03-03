@@ -1,3 +1,12 @@
+---
+type: voice-category
+status: stub
+delivery_style: null
+example_lines: null
+voice_recommendations: null
+settings: null
+---
+
 # Meme Quotes
 
 ## Purpose
