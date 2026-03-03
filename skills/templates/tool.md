@@ -1,8 +1,8 @@
 ---
 type: tool
 status: stub
-provider: null
-model: null
+provider: "{provider-name}"
+model: "{model-name}"
 parameters: null
 stable_styles: null
 gotchas: null
