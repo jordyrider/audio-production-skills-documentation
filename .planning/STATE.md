@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-03T05:03:30.263Z"
+last_updated: "2026-03-03T18:32:08.697Z"
 progress:
   total_phases: 3
   completed_phases: 2
   total_plans: 15
-  completed_plans: 11
+  completed_plans: 12
 ---
 
 # Project State
@@ -23,9 +23,9 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 3 of 3 (YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System)
-Plan: 3 of 5 in current phase (complete)
-Status: Phase 3 in progress — 03-03 complete
-Last activity: 2026-03-03 — 03-03 complete: YAML frontmatter prepended to all 10 genre sub-genre markdown files (13 fields per file, correct parent IDs)
+Plan: 4 of 5 in current phase (complete)
+Status: Phase 3 in progress — 03-04 complete
+Last activity: 2026-03-03 — 03-04 complete: YAML frontmatter prepended to 16 non-genre-subgenre files (3 supergenres, 1 taxonomy, 7 domain skills, 5 templates)
 
 Progress: [██████████] 100%
 
@@ -52,6 +52,7 @@ Progress: [██████████] 100%
 | Phase 03 P01 | 2 | 2 tasks | 6 files |
 | Phase 03 P02 | 2 | 2 tasks | 8 files |
 | Phase 03 P03 | 3 | 2 tasks | 10 files |
+| Phase 03 P04 | 5 | 2 tasks | 16 files |
 
 ## Accumulated Context
 
@@ -79,6 +80,7 @@ Recent decisions affecting current work:
 - [Phase 03-02]: Comment block at top of genre/index.yaml documents all 15 cross-reference IDs — tool index authors can copy IDs without traversing subfolders
 - [Phase 03-02]: cinematic-piano uses hyphenated compound ID — filename is piano.md inside cinematic/ subfolder; hyphen consistent with lo-fi, alt-indie conventions
 - [Phase 03]: Stub frontmatter uses null for all content fields — not missing fields; parent: null for top-level genres
+- [Phase 03-04]: Template files use frontmatter type of their target file type — templates/genre.md has type: genre, not type: template, making them schema-validatable against the same schemas as their target files
 
 ### Roadmap Evolution
 
@@ -95,5 +97,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-03
-Stopped at: Completed 03-03-PLAN.md — YAML frontmatter prepended to all 10 genre sub-genre markdown files with 13-field stub structure and correct parent IDs
+Stopped at: Completed 03-04-PLAN.md — YAML frontmatter prepended to 16 non-genre-subgenre files (3 supergenres, 1 taxonomy, 7 domain skills, 5 templates) with correct types per schema
 Resume file: None
