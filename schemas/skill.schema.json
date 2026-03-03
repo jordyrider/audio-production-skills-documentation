@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skill",
+  "description": "JSON schema for domain skill markdown files in the skills knowledge base. Skill files are primarily prose — only type and status are machine-readable required fields.",
+  "type": "object",
+  "required": ["type", "status"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "skill",
+      "description": "File type identifier"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["stub", "draft", "validated"],
+      "description": "Maturity level of this file's content"
+    }
+  },
+  "additionalProperties": true
+}

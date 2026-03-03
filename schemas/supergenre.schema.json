@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Supergenre",
+  "description": "JSON schema for super-genre descriptor markdown files in the skills knowledge base",
+  "type": "object",
+  "required": ["type", "status"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "supergenre",
+      "description": "File type identifier"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["stub", "draft", "validated"],
+      "description": "Maturity level of this file's content"
+    },
+    "scope": {
+      "type": ["string", "null"],
+      "description": "Prose description of what this super-genre covers"
+    },
+    "sub_genres": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "era", "status"],
+            "properties": {
+              "name": { "type": "string", "description": "Sub-genre name" },
+              "era": { "type": "string", "description": "Era or time period associated with this sub-genre" },
+              "file": {
+                "type": ["string", "null"],
+                "description": "Relative path to the genre file, or null if not yet created"
+              },
+              "status": {
+                "type": "string",
+                "enum": ["stub", "draft", "validated"],
+                "description": "Maturity level of the sub-genre file"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        { "type": "null" }
+      ],
+      "description": "List of sub-genres under this super-genre umbrella"
+    },
+    "canva_use_cases": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "Canva design contexts where this super-genre fits"
+    }
+  },
+  "additionalProperties": false,
+  "if": {
+    "properties": { "status": { "const": "stub" } },
+    "required": ["status"]
+  },
+  "then": {},
+  "else": {
+    "properties": {
+      "scope": { "type": "string" },
+      "sub_genres": {
+        "type": "array",
+        "minItems": 1
+      },
+      "canva_use_cases": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string" }
+      }
+    }
+  }
+}

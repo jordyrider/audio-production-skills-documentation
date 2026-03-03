@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Voice Category",
+  "description": "JSON schema for voice category markdown files in the skills knowledge base",
+  "type": "object",
+  "required": ["type", "status"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "voice-category",
+      "description": "File type identifier"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["stub", "draft", "validated"],
+      "description": "Maturity level of this file's content"
+    },
+    "delivery_style": {
+      "type": ["string", "null"],
+      "description": "Prose description of the vocal delivery style for this category"
+    },
+    "example_lines": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "Example lines demonstrating this voice category's style"
+    },
+    "voice_recommendations": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "Recommended ElevenLabs voice names or IDs for this category"
+    },
+    "settings": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "stability": { "type": "number", "minimum": 0, "maximum": 1 },
+            "similarity_boost": { "type": "number", "minimum": 0, "maximum": 1 },
+            "style": { "type": "number", "minimum": 0, "maximum": 1 },
+            "speaker_boost": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        },
+        { "type": "null" }
+      ],
+      "description": "ElevenLabs model settings for this voice category"
+    }
+  },
+  "additionalProperties": false,
+  "if": {
+    "properties": { "status": { "const": "stub" } },
+    "required": ["status"]
+  },
+  "then": {},
+  "else": {
+    "properties": {
+      "delivery_style": { "type": "string" },
+      "example_lines": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string" }
+      },
+      "voice_recommendations": {
+        "type": "array",
+        "minItems": 1,
+        "items": { "type": "string" }
+      },
+      "settings": { "type": "object" }
+    }
+  }
+}
