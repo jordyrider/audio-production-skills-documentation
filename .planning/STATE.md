@@ -68,6 +68,10 @@ Recent decisions affecting current work:
 - [Phase 02-schema-and-content]: system-prompt.md uses descriptive routing only — no explicit file paths, which avoids path staleness and stays model-agnostic
 - [Phase 02-schema-and-content]: Status values (stub/draft/validated) documented in system-prompt.md so Claude surfaces maturity warnings automatically
 
+### Roadmap Evolution
+
+- Phase 3 added: YAML index files, JSON schema, and markdown frontmatter validation system
+
 ### Pending Todos
 
 None yet.
