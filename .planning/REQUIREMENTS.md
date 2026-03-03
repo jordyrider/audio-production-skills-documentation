@@ -62,7 +62,7 @@
 - [x] **YAML-02**: Create `schemas/supergenre.schema.json`, `schemas/tool.schema.json`, `schemas/skill.schema.json`, `schemas/voice-category.schema.json`, `schemas/index.schema.json` — complete set of 6 JSON schemas
 - [x] **YAML-03**: Create `skills/music/genre/index.yaml` — authoritative genre ID registry, listing all genre IDs referenced by tool files
 - [x] **YAML-04**: Create per-subfolder `index.yaml` files for all 7 genre subfolders (alt-indie, cinematic, corporate, downtempo, pop, rnb, utility)
-- [ ] **YAML-05**: Add YAML frontmatter to all 10 genre sub-genre markdown files (type: genre with all 13 fields, correct parent IDs, null content for stubs)
+- [x] **YAML-05**: Add YAML frontmatter to all 10 genre sub-genre markdown files (type: genre with all 13 fields, correct parent IDs, null content for stubs)
 - [ ] **YAML-06**: Add YAML frontmatter to supergenre files (3), domain skill files (7), template files (5), and genre/taxonomy.md (1) — 16 files total
 - [ ] **YAML-07**: Add YAML frontmatter to tool files (7 MiniMax), voice category files (5), and system-prompt.md — 13 files total; extract music-2.5.md structured data to frontmatter
 - [ ] **YAML-08**: Create all remaining YAML index files: skills/, music/, voice/, tools/ domain indexes and voice/tool subfolder indexes — 10 files total
@@ -110,7 +110,7 @@
 | YAML-02 | Phase 3 | Complete |
 | YAML-03 | Phase 3 | Complete |
 | YAML-04 | Phase 3 | Complete |
-| YAML-05 | Phase 3 | Pending |
+| YAML-05 | Phase 3 | Complete |
 | YAML-06 | Phase 3 | Pending |
 | YAML-07 | Phase 3 | Pending |
 | YAML-08 | Phase 3 | Pending |
