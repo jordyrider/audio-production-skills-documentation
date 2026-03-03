@@ -1,0 +1,9 @@
+folder: skills/music/genre/utility
+type: subgenre-index
+files:
+  - id: utility
+    file: utility.md
+    type: genre
+    status: stub
+    title: "Utility"
+    description: "Production-purpose tracks — jingles, stingers, transitions"

@@ -1,0 +1,15 @@
+folder: skills/music/genre/downtempo
+type: subgenre-index
+files:
+  - id: downtempo
+    file: downtempo.md
+    type: supergenre
+    status: stub
+    title: "Downtempo / Ambient"
+    description: "Super-genre descriptor for the Downtempo / Ambient cluster"
+  - id: lo-fi
+    file: lo-fi.md
+    type: genre
+    status: stub
+    title: "Lo-Fi Hip Hop"
+    description: "Dusty, warm, low-fidelity textured hip-hop production"

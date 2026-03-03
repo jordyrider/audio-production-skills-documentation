@@ -1,0 +1,15 @@
+folder: skills/music/genre/rnb
+type: subgenre-index
+files:
+  - id: rnb
+    file: rnb.md
+    type: supergenre
+    status: stub
+    title: "Rhythm 'n' Blues (R&B)"
+    description: "Super-genre descriptor for the R&B cluster"
+  - id: funk
+    file: funk.md
+    type: genre
+    status: stub
+    title: "Funk"
+    description: "Groove-forward, syncopated rhythm, slap bass character"

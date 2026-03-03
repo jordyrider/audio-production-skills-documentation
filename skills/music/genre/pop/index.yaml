@@ -1,0 +1,9 @@
+folder: skills/music/genre/pop
+type: subgenre-index
+files:
+  - id: pop
+    file: pop.md
+    type: genre
+    status: stub
+    title: "Pop"
+    description: "Contemporary pop music production"

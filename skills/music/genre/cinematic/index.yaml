@@ -1,0 +1,15 @@
+folder: skills/music/genre/cinematic
+type: subgenre-index
+files:
+  - id: cinematic
+    file: cinematic.md
+    type: genre
+    status: stub
+    title: "Cinematic"
+    description: "Orchestral/underscore music spanning Classical, Downtempo, Ambient"
+  - id: cinematic-piano
+    file: piano.md
+    type: genre
+    status: stub
+    title: "Cinematic: Piano"
+    description: "Solo piano cinematic variant"

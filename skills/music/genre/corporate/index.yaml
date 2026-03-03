@@ -1,0 +1,9 @@
+folder: skills/music/genre/corporate
+type: subgenre-index
+files:
+  - id: corporate
+    file: corporate.md
+    type: genre
+    status: stub
+    title: "Corporate"
+    description: "Functional background music spanning Pop, Downtempo"

@@ -1,0 +1,27 @@
+folder: skills/music/genre/alt-indie
+type: subgenre-index
+files:
+  - id: alt-indie
+    file: alt-indie.md
+    type: supergenre
+    status: stub
+    title: "Rock: Alternative / Indie (Rock)"
+    description: "Super-genre descriptor for the Alternative / Indie Rock cluster"
+  - id: indie
+    file: indie.md
+    type: genre
+    status: stub
+    title: "Indie Rock"
+    description: "Guitar-driven indie rock, independent aesthetic"
+  - id: retro
+    file: retro.md
+    type: genre
+    status: stub
+    title: "Retro / Vintage Rock"
+    description: "Era-spanning nostalgic production, vintage instrumentation"
+  - id: synthwave
+    file: synthwave.md
+    type: genre
+    status: stub
+    title: "Synthwave"
+    description: "1980s aesthetic revival, analog synths, neon energy"
