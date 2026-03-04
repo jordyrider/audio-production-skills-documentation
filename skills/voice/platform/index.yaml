@@ -1,0 +1,21 @@
+folder: skills/voice/platform
+type: subgenre-index
+files:
+  - id: tiktok
+    file: tiktok.md
+    type: skill
+    status: stub
+    title: "TikTok"
+    description: "Prosodic profile for TikTok short-form voiceover — pacing, energy, hook density"
+  - id: youtube-shorts
+    file: youtube-shorts.md
+    type: skill
+    status: stub
+    title: "YouTube Shorts"
+    description: "Prosodic profile for YouTube Shorts voiceover — retention patterns, autoplay context"
+  - id: instagram-reels
+    file: instagram-reels.md
+    type: skill
+    status: stub
+    title: "Instagram Reels"
+    description: "Prosodic profile for Instagram Reels voiceover — visual-first aesthetic, warmth-authority balance"
