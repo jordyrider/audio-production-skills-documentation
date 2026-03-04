@@ -73,15 +73,31 @@ Genre files describe what the music should sound like. The model file describes 
 
 | Category | File |
 |----------|------|
-| Hook openers | `skills/voice/hook-openers/hook-openers.md` |
-| CTA / promo | `skills/voice/cta-promo/cta-promo.md` |
-| Meme quotes | `skills/voice/meme-quotes/meme-quotes.md` |
-| POV / relatable | `skills/voice/pov-relatable/pov-relatable.md` |
-| Instructional | `skills/voice/instructional/instructional.md` |
+| Hook openers    | `skills/voice/hook-openers.md` |
+| CTA / promo     | `skills/voice/cta-promo.md` |
+| Meme quotes     | `skills/voice/meme-quotes.md` |
+| POV / relatable | `skills/voice/pov-relatable.md` |
+| Instructional   | `skills/voice/instructional.md` |
 
-A voice characteristics file covers cross-category voice properties (register, pacing, tone markers): `skills/voice/characteristics.md`
+A voice characteristics file covers cross-category voice properties (register, pacing, energy, expressiveness, pause & breath, warmth vs authority): `skills/voice/characteristics.md`. This is the Layer 1 vocabulary reference — always read it before writing voice settings guidance.
 
-**Voice generation models** — ElevenLabs provides voice generation. Speech models vary in quality and latency: HD models produce higher quality, Turbo models are faster. Model files are at `skills/tools/elevenlabs/{model}.md`.
+**Two-layer voice pattern:**
+- Layer 1 (`characteristics.md`): provider-agnostic delivery intent vocabulary (register, pacing, energy, expressiveness, pause, warmth vs authority)
+- Layer 2 (model file): maps Layer 1 intent into provider-specific parameters (stability, pitch, emotion, audio tags)
+
+Always read characteristics.md first to clarify delivery intent, then read the model file to translate intent into parameters.
+
+**Voice generation models** — Two providers are available:
+
+**ElevenLabs** — Three models, each with different expression methods:
+
+| Model | File | Expression |
+|-------|------|-----------|
+| eleven_multilingual_v2 | `skills/tools/elevenlabs/eleven_multilingual_v2.md` | Text cues + SSML break tags |
+| eleven_turbo_v2_5 | `skills/tools/elevenlabs/eleven_turbo_v2_5.md` | Text cues + SSML, faster, 32 languages |
+| eleven_v3 | `skills/tools/elevenlabs/eleven_v3.md` | Audio tags [like this], Creative/Natural/Robust modes |
+
+**MiniMax Speech** — Six models across three generations. See `skills/tools/minimax/index.yaml` for the full model list. Read `speech-02-hd.md` for the base parameter reference.
 
 ---
 
@@ -101,7 +117,8 @@ SFX taxonomy file: `skills/sfx/taxonomy.md` — currently a stub.
 | Specify tempo or key | `skills/music/tempo.md` or `keys-and-mood.md` → `minimax/music-2.5.md` |
 | Add effects to instrumentation | `skills/music/effects.md` |
 | Choose or describe instruments | `skills/music/instruments.md` |
-| Generate voice for a content type | Voice category file → MiniMax speech model file |
-| Choose between voice models | MiniMax speech model files |
+| Generate voice for a content type | `voice/characteristics.md` → voice category file → model file |
+| Choose between ElevenLabs models | `skills/tools/elevenlabs/eleven_multilingual_v2.md`, `eleven_turbo_v2_5.md`, `eleven_v3.md` |
+| Generate voice with MiniMax speech | `voice/characteristics.md` → voice category file → `speech-02-hd.md` (reference) → generation-specific file |
 | Add sound effects | `skills/sfx/taxonomy.md` |
 | Create a new skill file | `skills/templates/` (reference schemas only) |
