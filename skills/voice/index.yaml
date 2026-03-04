@@ -7,19 +7,33 @@ files:
     status: stub
     title: "Voice Characteristics"
     description: "General voice characteristics and tonal vocabulary"
-sub_folders:
   - id: hook-openers
-    folder: skills/voice/hook-openers
+    file: hook-openers.md
+    type: voice-category
+    status: stub
     title: "Hook Openers"
+    description: "High-energy curiosity-driven openers — curious/excited delivery, non-uniform pacing"
   - id: cta-promo
-    folder: skills/voice/cta-promo
+    file: cta-promo.md
+    type: voice-category
+    status: stub
     title: "CTA / Promo"
+    description: "Confident, warm, direct calls-to-action — urgency without desperation"
   - id: meme-quotes
-    folder: skills/voice/meme-quotes
+    file: meme-quotes.md
+    type: voice-category
+    status: stub
     title: "Meme / Quotes"
+    description: "Highly variable delivery — flat irony to exaggerated comedy, deadpan valid"
   - id: pov-relatable
-    folder: skills/voice/pov-relatable
+    file: pov-relatable.md
+    type: voice-category
+    status: stub
     title: "POV / Relatable"
+    description: "Conversational, intimate, first-person — warmth over authority"
   - id: instructional
-    folder: skills/voice/instructional
+    file: instructional.md
+    type: voice-category
+    status: stub
     title: "Instructional"
+    description: "Clear, measured, warm authority — deliberate pacing, consistent register"
