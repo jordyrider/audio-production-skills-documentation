@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in_progress
-last_updated: "2026-03-04T02:03:28Z"
+last_updated: "2026-03-04T02:09:00Z"
 progress:
   total_phases: 4
   completed_phases: 3
   total_plans: 21
-  completed_plans: 19
+  completed_plans: 20
 ---
 
 # Project State
@@ -23,11 +23,11 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 4 of 4 (Voice Skills Content)
-Plan: 4 of 6 in current phase (complete)
-Status: IN PROGRESS — 04-04 complete
-Last activity: 2026-03-04 — 04-04 complete: all 6 MiniMax speech stub files promoted to draft; speech-02-hd.md as reference file, 2.6 files note Filipino/Tamil/Persian additions, 2.8 files document inline tone tag syntax
+Plan: 5 of 6 in current phase (complete)
+Status: IN PROGRESS — 04-05 complete
+Last activity: 2026-03-04 — 04-05 complete: all 5 voice category stub files promoted to draft; Settings Guidance sections in Layer 1 vocabulary; deadpan documented as valid target in meme-quotes; breath/micro-pauses as core tools in pov-relatable
 
-Progress: [████████░░] 90% (19/21 plans)
+Progress: [████████░░] 95% (20/21 plans)
 
 ## Performance Metrics
 
@@ -47,6 +47,7 @@ Progress: [████████░░] 90% (19/21 plans)
 - Trend: On track
 
 *Updated after each plan completion*
+| Phase 04 P05 | 3 | 2 tasks | 5 files |
 | Phase 04 P04 | 3 | 2 tasks | 6 files |
 | Phase 04 P03 | 3 | 2 tasks | 3 files |
 | Phase 04 P02 | 8 | 2 tasks | 2 files |
@@ -104,6 +105,10 @@ Recent decisions affecting current work:
 - [Phase 04-04]: stable_styles set to [] (not null) for speech models — validator enforces non-null for draft status; empty array passes check and correctly signals no music style concept
 - [Phase 04-04]: speech-02-hd.md is the canonical MiniMax speech reference — generation files reference it and note only their differences (reference-plus-delta pattern)
 - [Phase 04-04]: tone tags (2.8) documented as inline/phrase-level, explicitly contrasted with model-wide emotion param
+- [Phase 04-05]: meme-quotes.md documents two delivery poles (deadpan vs exaggerated) with separate settings paths — not a single averaged target
+- [Phase 04-05]: instructional.md sets style to 0.0 — only category with zero style amplification; added expressiveness is distraction in comprehension-first content
+- [Phase 04-05]: pov-relatable.md treats breath as a scripting requirement, not a settings lever — must be written into script via commas, dashes, ellipses
+- [Phase 04-05]: hook-openers.md clarifies energy means intensity not volume — prevents misinterpretation that leads to volume-pushing
 
 ### Roadmap Evolution
 
@@ -121,5 +126,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 04-04-PLAN.md — all 6 MiniMax speech stub files promoted to draft; reference file pattern established (speech-02-hd.md canonical, others reference it); 2.8 tone tag syntax documented. Phase 4 plan 4 of 6 complete.
+Stopped at: Completed 04-05-PLAN.md — all 5 voice category files promoted to draft; Settings Guidance in Layer 1 vocabulary; meme-quotes deadpan documented; pov-relatable breath-as-scripting-tool pattern established. Phase 4 plan 5 of 6 complete.
 Resume file: None
