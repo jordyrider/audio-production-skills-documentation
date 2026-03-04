@@ -1,0 +1,22 @@
+# ElevenLabs model registry
+folder: skills/tools/elevenlabs
+type: tools-index
+files:
+  - id: eleven-multilingual-v2
+    file: eleven_multilingual_v2.md
+    type: tool
+    status: stub
+    title: "ElevenLabs Eleven Multilingual v2"
+    description: "ElevenLabs multilingual v2 — text cues + SSML break tags, no audio tags"
+  - id: eleven-turbo-v2-5
+    file: eleven_turbo_v2_5.md
+    type: tool
+    status: stub
+    title: "ElevenLabs Eleven Turbo v2.5"
+    description: "ElevenLabs turbo v2.5 — faster, 32 languages, same expression method as multilingual v2"
+  - id: eleven-v3
+    file: eleven_v3.md
+    type: tool
+    status: stub
+    title: "ElevenLabs Eleven v3"
+    description: "ElevenLabs v3 — audio tags [like this], Creative/Natural/Robust stability modes, non-deterministic"
