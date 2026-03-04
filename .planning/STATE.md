@@ -3,7 +3,7 @@ gsd_state_version: 1.0
 milestone: v2.5
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-04T04:17:59.213Z"
+last_updated: "2026-03-04T04:18:01.555Z"
 progress:
   total_phases: 5
   completed_phases: 5
@@ -116,6 +116,7 @@ Recent decisions affecting current work:
 - [Phase 05-02]: Platform profiles block placed before Two-layer voice pattern heading — keeps platform context logically adjacent to the always-read characteristics reference
 - [Phase 05-02]: New routing row inserted immediately after existing "Generate voice for a content type" row — makes platform variant discoverable as extension of existing pattern
 - [Phase 05-01]: Platform files use type: skill (not voice-category) — platform context describes prosodic delivery norms, not model parameters; keeps type system clean
+- [Phase 05-01]: platform/index.yaml uses type: subgenre-index — consistent with Phase 03-06 and Phase 04 voice subfolder index convention
 
 ### Roadmap Evolution
 
