@@ -11,7 +11,7 @@ canva_use_cases: [study-content, focus-playlists, journaling, wellness, product-
 prompting_rules: "Open with 'Lofi' as style label. BPM 75–85. Lead with mood word before instruments. Avoid high-energy descriptors."
 validated_patterns: null
 known_limitations: null
-still_testing: "5 track prompts in Still Testing section"
+still_testing: null
 ---
 
 # Lo-Fi Hip Hop
@@ -134,69 +134,4 @@ Combined: Lofi, 80 BPM, nostalgic and melancholic, dusty piano melody, warm upri
 
 ## Still Testing
 
-Five track prompts ready to test. Add results to Validated Patterns or Known Limitations after generating.
-
----
-
-**Track 1 — Rainy Study Session**
-Classic lo-fi study vibe. Cozy, muffled, warm.
-
-```
-Style: Lofi, 78 BPM
-Mood: cozy and nostalgic, like studying on a rainy afternoon
-Arrangement: gentle dusty piano melody, warm upright bass, soft sampled drums with shuffle, vinyl crackle, distant rain ambience
-Dynamic: minimal, loop-like, unhurried — no dramatic build
-Combined: Lofi, 78 BPM, cozy and nostalgic, gentle dusty piano melody, warm upright bass, soft sampled drums with shuffle, vinyl crackle, distant rain ambience, minimal and loop-like
-```
-
----
-
-**Track 2 — Late Night Melancholy**
-Darker, more introspective. Minor key, sparse.
-
-```
-Style: Lofi, 75 BPM
-Mood: late night, melancholic and introspective
-Arrangement: sparse Rhodes melody, deep electric bass, slow brushed drums, vinyl texture, faint pad underneath
-Dynamic: very sparse, minimal fills, long sustain on chords
-Combined: Lofi, 75 BPM, late night melancholic and introspective, sparse Rhodes melody, deep electric bass, slow brushed drums, vinyl texture, faint atmospheric pad, long sustained chords
-```
-
----
-
-**Track 3 — Jazz-Forward Lo-Fi**
-Leans into the jazz roots. Brushed drums, upright bass, saxophone accent.
-
-```
-Style: Lofi, 82 BPM
-Mood: warm and jazzy, like a quiet coffee shop
-Arrangement: clean jazz piano comping, upright bass walking line, brushed drums with light swing, occasional sparse saxophone phrase, vinyl crackle
-Dynamic: easy swing feel, relaxed groove, minimal but rhythmically alive
-Combined: Lofi, 82 BPM, warm and jazzy, clean jazz piano comping, upright bass walking line, brushed drums with swing, occasional sparse saxophone, vinyl crackle, relaxed groove
-```
-
----
-
-**Track 4 — Sunny Morning**
-Brighter, more uplifting. Major key, gentle energy.
-
-```
-Style: Lofi, 85 BPM
-Mood: warm and optimistic, gentle morning energy
-Arrangement: bright acoustic guitar fingerpicking, warm electric bass, light lo-fi drum groove, soft piano chords, subtle birds or morning ambience
-Dynamic: light and airy, slightly more forward momentum than typical lo-fi
-Combined: Lofi, 85 BPM, warm and optimistic morning energy, bright acoustic guitar fingerpicking, warm electric bass, light lo-fi drum groove, soft piano chords, airy and gentle
-```
-
----
-
-**Track 5 — Deep Nostalgia (Heavy Vinyl)**
-Maximum vintage texture. Heavily filtered, lo-fi pushed to its aesthetic limit.
-
-```
-Style: Lofi, 72 BPM
-Mood: deeply nostalgic, like rediscovering an old memory
-Arrangement: heavily filtered dusty piano, warm bass, very loose sampled drums, pronounced vinyl crackle and tape hiss, faint flute melody
-Dynamic: slow and hypnotic, almost static — pure texture and mood
-Combined: Lofi, 72 BPM, deeply nostalgic, heavily filtered dusty piano, warm bass, loose sampled drums, pronounced vinyl crackle and tape hiss, faint flute melody, slow and hypnotic
-```
+*Populate as prompt variations are tested.*
