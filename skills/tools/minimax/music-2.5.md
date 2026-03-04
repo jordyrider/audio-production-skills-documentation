@@ -8,8 +8,6 @@ parameters:
   Mode: "Include a genre or style label as the first term. Sets the tonal character."
   Lyrics_field: "Use structure labels only for instrumentals: [Intro] [Inst] [Transition] [Build Up] [Interlude] [Outro]"
 stable_styles:
-  - style: "BPM (value)"
-    behavior: "Defines tempo; output will vary ±10 BPM"
   - style: "Duet"
     behavior: "Two-voice arrangement"
   - style: "A Cappella"
@@ -103,7 +101,6 @@ Styles that consistently produce recognisable and reliable output:
 
 | Style | Behaviour |
 |-------|-----------|
-| BPM (value) | Defines tempo; output will vary ±10 BPM |
 | Duet | Two-voice arrangement |
 | A Cappella | Voice-only, no backing track |
 | Shepard Scale | Continuously ascending/descending perceptual pitch illusion |

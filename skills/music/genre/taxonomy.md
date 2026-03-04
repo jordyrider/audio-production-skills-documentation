@@ -40,7 +40,7 @@ Each super-genre below maps to a horizontal cluster on musicmap.info. Sub-genres
 | **EDM / Dance: Techno** | — | not started |
 | **EDM / Dance: House** | — | not started |
 | **EDM / Dance: Trance** | — | not started |
-| **Downtempo / Ambient** | `genre/downtempo/lo-fi.md` | stub — lo-fi only |
+| **Downtempo / Ambient** | `genre/downtempo/lofi-hip-hop.md` | draft — lo-fi hip-hop only |
 
 ---
 
@@ -50,7 +50,7 @@ Files built for specific sub-genres within a super-genre cluster.
 
 | Sub-Genre | Parent Super-Genre | File | Status |
 |-----------|-------------------|------|--------|
-| Lo-Fi Hip-Hop | Downtempo / Ambient | `genre/downtempo/lo-fi.md` | stub |
+| Lo-Fi Hip-Hop | Downtempo / Ambient | `genre/downtempo/lofi-hip-hop.md` | draft |
 | Funk | Rhythm 'n' Blues (R&B) | `genre/rnb/funk.md` | stub |
 | Pop | Pop (Music) | `genre/pop/pop.md` | stub |
 | Indie Rock | Rock: Alternative / Indie (Rock) | `genre/alt-indie/indie.md` | stub |
@@ -76,6 +76,6 @@ These genre files use stock music / production use-case framing not represented 
 
 - **23 super-genres total** — 3 have skill file coverage (partial), 20 not started
 - **R&B cluster** — funk.md covers funk specifically; soul, neo-soul, classic R&B not started
-- **Downtempo cluster** — lo-fi.md covers lo-fi hip-hop specifically; trip-hop, chillout, ambient not started
+- **Downtempo cluster** — lofi-hip-hop.md covers lo-fi hip-hop specifically; trip-hop, chillout, ambient not started
 - **Indie cluster** — indie.md covers indie rock broadly; retro.md and synthwave.md are sub-genre files within the indie folder but synthwave sits closer to EDM
 - **EDM** — six sub-super-genres (Breakbeat, DnB, Hardcore, Techno, House, Trance) — none started

@@ -22,7 +22,7 @@ Downtempo / Ambient covers music defined by slow tempos, atmospheric texture, an
 
 | Sub-Genre | Era / Notes | Skill File | Status |
 |-----------|------------|-----------|--------|
-| Lo-Fi Hip-Hop | 2010s–present, dusty samples, vinyl texture, slow hip-hop rhythm | `lo-fi.md` | stub |
+| Lo-Fi Hip-Hop | 2010s–present, dusty samples, vinyl texture, slow hip-hop rhythm | `lofi-hip-hop.md` | stub |
 | Trip-Hop | 1990s, dark, cinematic, sample-based, slow hip-hop adjacent | — | not started |
 | Chillout / Chillwave | 1990s–2010s, warm, nostalgic, hazy synth textures | — | not started |
 | Ambient | 1970s–present, beatless or near-beatless, purely atmospheric | — | not started |
@@ -34,12 +34,12 @@ Downtempo / Ambient covers music defined by slow tempos, atmospheric texture, an
 
 | Term / Phrase | Likely Means | Route to |
 |---------------|-------------|---------|
-| "lo-fi" / "lofi" | Lo-fi hip-hop | `lo-fi.md` |
-| "study music" / "focus music" | Lo-fi hip-hop or ambient | `lo-fi.md` |
-| "chill" / "relaxed" | Lo-fi hip-hop, chillout, or ambient depending on context | `lo-fi.md` (closest available) |
+| "lo-fi" / "lofi" | Lo-fi hip-hop | `lofi-hip-hop.md` |
+| "study music" / "focus music" | Lo-fi hip-hop or ambient | `lofi-hip-hop.md` |
+| "chill" / "relaxed" | Lo-fi hip-hop, chillout, or ambient depending on context | `lofi-hip-hop.md` (closest available) |
 | "trip-hop" / "dark chill" | Trip-hop — darker, more cinematic | — (not started) |
 | "ambient" / "atmospheric" / "soundscape" | Ambient | — (not started) |
-| "background music" | Ambient or lo-fi depending on whether beats are wanted | `lo-fi.md` (if beats wanted) |
+| "background music" | Ambient or lo-fi depending on whether beats are wanted | `lofi-hip-hop.md` (if beats wanted) |
 
 ## Canva Use Cases
 - Study, focus, and productivity content
@@ -51,7 +51,7 @@ Downtempo / Ambient covers music defined by slow tempos, atmospheric texture, an
 
 | If the user wants... | Read |
 |---------------------|------|
-| Dusty, warm, beats, vinyl texture | `lo-fi.md` |
+| Dusty, warm, beats, vinyl texture | `lofi-hip-hop.md` |
 | Dark, cinematic, moody, sample-based | — trip-hop (not started) |
 | Purely atmospheric, no beats | — ambient (not started) |
 | Warm nostalgic haze, synth textures | — chillwave (not started) |

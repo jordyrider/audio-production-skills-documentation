@@ -28,7 +28,7 @@ You have access to one tool:
 
 Paths are relative to the knowledge base root. Examples:
 - `read_file("skills/music/structure.md")`
-- `read_file("skills/music/genre/downtempo/lo-fi.md")`
+- `read_file("skills/music/genre/downtempo/lofi-hip-hop.md")`
 - `read_file("skills/tools/minimax/music-2.5.md")`
 
 Load only what you need for the current task. If a file is a stub, note this to the user and work with what's available.

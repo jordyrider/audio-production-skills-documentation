@@ -7,9 +7,9 @@ files:
     status: stub
     title: "Downtempo / Ambient"
     description: "Super-genre descriptor for the Downtempo / Ambient cluster"
-  - id: lo-fi
-    file: lo-fi.md
+  - id: lofi-hip-hop
+    file: lofi-hip-hop.md
     type: genre
-    status: stub
+    status: draft
     title: "Lo-Fi Hip Hop"
     description: "Dusty, warm, low-fidelity textured hip-hop production"
