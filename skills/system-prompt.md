@@ -81,6 +81,14 @@ Genre files describe what the music should sound like. The model file describes 
 
 A voice characteristics file covers cross-category voice properties (register, pacing, energy, expressiveness, pause & breath, warmth vs authority): `skills/voice/characteristics.md`. This is the Layer 1 vocabulary reference — always read it before writing voice settings guidance.
 
+**Platform profiles** — Three platform context files describe the prosodic norms specific to each short-form video platform. Read the platform file when the user specifies a target platform — it constrains the correct pacing, energy, and hook density for the generated voice.
+
+| Platform | File |
+|----------|------|
+| TikTok          | `skills/voice/platform/tiktok.md` |
+| YouTube Shorts  | `skills/voice/platform/youtube-shorts.md` |
+| Instagram Reels | `skills/voice/platform/instagram-reels.md` |
+
 **Two-layer voice pattern:**
 - Layer 1 (`characteristics.md`): provider-agnostic delivery intent vocabulary (register, pacing, energy, expressiveness, pause, warmth vs authority)
 - Layer 2 (model file): maps Layer 1 intent into provider-specific parameters (stability, pitch, emotion, audio tags)
@@ -118,6 +126,7 @@ SFX taxonomy file: `skills/sfx/taxonomy.md` — currently a stub.
 | Add effects to instrumentation | `skills/music/effects.md` |
 | Choose or describe instruments | `skills/music/instruments.md` |
 | Generate voice for a content type | `voice/characteristics.md` → voice category file → model file |
+| Generate voice for a content type + platform | `voice/characteristics.md` → `voice/platform/{platform}.md` → voice category file → model file |
 | Choose between ElevenLabs models | `skills/tools/elevenlabs/eleven_multilingual_v2.md`, `eleven_turbo_v2_5.md`, `eleven_v3.md` |
 | Generate voice with MiniMax speech | `voice/characteristics.md` → voice category file → `speech-02-hd.md` (reference) → generation-specific file |
 | Add sound effects | `skills/sfx/taxonomy.md` |
