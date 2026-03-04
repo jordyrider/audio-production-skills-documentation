@@ -77,7 +77,7 @@ Phases execute in numeric order: 1 → 2 → 3
 **Goal:** Complete, filled voice skills layer — characteristics.md vocabulary reference, all ElevenLabs model files, all MiniMax speech model files filled, all 5 voice category files migrated to flat structure and filled, updated indexes, and system-prompt.md routing updated. After this phase, Claude can generate precise, tool-ready voice prompts using structured skill files.
 **Requirements**: D1, D2, D3, D4, D5, D6
 **Depends on:** Phase 3
-**Plans:** 1/6 plans executed
+**Plans:** 3/6 plans executed
 
 Plans:
 - [ ] 04-01-PLAN.md — Migrate voice category files to flat structure + update skills/voice/index.yaml
