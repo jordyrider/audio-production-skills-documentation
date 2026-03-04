@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in_progress
-last_updated: "2026-03-04T04:03:12Z"
+last_updated: "2026-03-04T02:03:28Z"
 progress:
   total_phases: 4
   completed_phases: 3
   total_plans: 21
-  completed_plans: 18
+  completed_plans: 19
 ---
 
 # Project State
@@ -23,11 +23,11 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 4 of 4 (Voice Skills Content)
-Plan: 3 of 6 in current phase (complete)
-Status: IN PROGRESS — 04-03 complete
-Last activity: 2026-03-04 — 04-03 complete: three ElevenLabs model tool files created at draft status (eleven_multilingual_v2.md, eleven_turbo_v2_5.md, eleven_v3.md); full audio tag reference (6 categories) in v3
+Plan: 4 of 6 in current phase (complete)
+Status: IN PROGRESS — 04-04 complete
+Last activity: 2026-03-04 — 04-04 complete: all 6 MiniMax speech stub files promoted to draft; speech-02-hd.md as reference file, 2.6 files note Filipino/Tamil/Persian additions, 2.8 files document inline tone tag syntax
 
-Progress: [████████░░] 86% (18/21 plans)
+Progress: [████████░░] 90% (19/21 plans)
 
 ## Performance Metrics
 
@@ -47,6 +47,7 @@ Progress: [████████░░] 86% (18/21 plans)
 - Trend: On track
 
 *Updated after each plan completion*
+| Phase 04 P04 | 3 | 2 tasks | 6 files |
 | Phase 04 P03 | 3 | 2 tasks | 3 files |
 | Phase 04 P02 | 8 | 2 tasks | 2 files |
 | Phase 04 P01 | 1 | 2 tasks | 6 files |
@@ -98,6 +99,11 @@ Recent decisions affecting current work:
 - [Phase 04-01]: Voice category files use flat structure under skills/voice/ — subfolders removed to simplify routing and downstream plan references
 - [Phase 04-02]: characteristics.md includes ElevenLabs/MiniMax translation note in Register section only — all other sections remain fully provider-agnostic
 - [Phase 04-02]: elevenlabs/index.yaml omits genre_ids on speech model entries — consistent with Phase 03-06 speech model convention
+- [Phase 04-03]: ElevenLabs draft tool files use stable_styles: [] (empty array) not null — validator enforces non-null for draft status; empty array passes check and is semantically accurate
+- [Phase 04-03]: eleven_turbo_v2_5.md references eleven_multilingual_v2.md for shared expression method — DRY pattern for near-identical model variants
+- [Phase 04-04]: stable_styles set to [] (not null) for speech models — validator enforces non-null for draft status; empty array passes check and correctly signals no music style concept
+- [Phase 04-04]: speech-02-hd.md is the canonical MiniMax speech reference — generation files reference it and note only their differences (reference-plus-delta pattern)
+- [Phase 04-04]: tone tags (2.8) documented as inline/phrase-level, explicitly contrasted with model-wide emotion param
 
 ### Roadmap Evolution
 
@@ -115,5 +121,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 04-02-PLAN.md — characteristics.md filled (7 sections, Layer 1 voice vocab, draft status); elevenlabs/index.yaml created (3 stub entries). Phase 4 plan 2 of 6 complete.
+Stopped at: Completed 04-03-PLAN.md — three ElevenLabs model tool files created at draft status; eleven_v3.md has full 6-category audio tag reference and stability modes. Phase 4 plan 3 of 6 complete.
 Resume file: None
