@@ -37,3 +37,7 @@ files:
     status: stub
     title: "Instructional"
     description: "Clear, measured, warm authority — deliberate pacing, consistent register"
+sub_folders:
+  - id: platform
+    folder: skills/voice/platform
+    title: "Platform Profiles"
