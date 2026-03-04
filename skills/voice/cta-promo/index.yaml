@@ -1,9 +1,0 @@
-folder: skills/voice/cta-promo
-type: subgenre-index
-files:
-  - id: cta-promo
-    file: cta-promo.md
-    type: voice-category
-    status: stub
-    title: "CTA / Promo"
-    description: "Call-to-action and promotional voice delivery style"

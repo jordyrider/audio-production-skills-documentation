@@ -1,9 +1,0 @@
-folder: skills/voice/pov-relatable
-type: subgenre-index
-files:
-  - id: pov-relatable
-    file: pov-relatable.md
-    type: voice-category
-    status: stub
-    title: "POV / Relatable"
-    description: "First-person perspective and relatable moment voice style"

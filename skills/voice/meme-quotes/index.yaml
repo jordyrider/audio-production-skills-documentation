@@ -1,9 +1,0 @@
-folder: skills/voice/meme-quotes
-type: subgenre-index
-files:
-  - id: meme-quotes
-    file: meme-quotes.md
-    type: voice-category
-    status: stub
-    title: "Meme / Quotes"
-    description: "Meme-style and quoted content voice delivery"
