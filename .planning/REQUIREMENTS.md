@@ -74,8 +74,8 @@
 ### Voice Platform Stubs
 
 - [ ] **PLAT-01**: Create `skills/voice/platform/` directory with 3 stub files — `tiktok.md`, `youtube-shorts.md`, `instagram-reels.md` — each with `type: skill`, `status: stub`, `## Prosodic Profile` section outline (Pacing, Energy, Register, Expressiveness, Pause and Breath, Hook Density subsections), and `## Platform Notes` placeholder
-- [ ] **PLAT-02**: Create `skills/voice/platform/index.yaml` with `type: subgenre-index` and 3 registry entries; update `skills/voice/index.yaml` to add a `sub_folders` array with the platform/ entry
-- [ ] **PLAT-03**: Update `skills/system-prompt.md` — add Platform profiles table to the Voice section and a new routing row ("Generate voice for a content type + platform") to the Routing Guide, documenting the three-layer read order: characteristics.md → platform file → voice category file → model file
+- [x] **PLAT-02**: Create `skills/voice/platform/index.yaml` with `type: subgenre-index` and 3 registry entries; update `skills/voice/index.yaml` to add a `sub_folders` array with the platform/ entry
+- [x] **PLAT-03**: Update `skills/system-prompt.md` — add Platform profiles table to the Voice section and a new routing row ("Generate voice for a content type + platform") to the Routing Guide, documenting the three-layer read order: characteristics.md → platform file → voice category file → model file
 
 ## Out of Scope
 
@@ -125,8 +125,8 @@
 | YAML-09 | Phase 3 | Complete |
 | YAML-10 | Phase 3 | Complete |
 | PLAT-01 | Phase 5 | Pending |
-| PLAT-02 | Phase 5 | Pending |
-| PLAT-03 | Phase 5 | Pending |
+| PLAT-02 | Phase 5 | Complete |
+| PLAT-03 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 22 total — mapped to phases: 22 — unmapped: 0 ✓

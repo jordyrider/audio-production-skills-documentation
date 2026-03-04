@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v2.5
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-04T02:14:23.298Z"
+last_updated: "2026-03-04T04:17:59.213Z"
 progress:
-  total_phases: 4
-  completed_phases: 4
-  total_plans: 21
-  completed_plans: 21
+  total_phases: 5
+  completed_phases: 5
+  total_plans: 23
+  completed_plans: 23
 ---
 
 # Project State
@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Claude has enough structured, validated knowledge to generate precise, tool-ready prompts from a creative brief without guessing.
-**Current focus:** Phase 4 - Voice Skills Content
+**Current focus:** Phase 5 - Voice Platform Stubs
 
 ## Current Position
 
-Phase: 4 of 4 (Voice Skills Content)
-Plan: 6 of 6 in current phase (complete)
-Status: COMPLETE — all 21 plans executed
-Last activity: 2026-03-04 — 04-06 complete: system-prompt.md updated with flat voice paths, all 3 ElevenLabs models, and two-layer voice architecture pattern
+Phase: 5 of 5 (Voice Platform Stubs)
+Plan: 2 of 2 in current phase (complete)
+Status: IN PROGRESS — 23/23 plans executed (Phase 5 complete)
+Last activity: 2026-03-04 — 05-02 complete: voice/index.yaml registers platform/ subfolder, system-prompt.md documents platform files and adds three-layer routing row
 
-Progress: [██████████] 100% (21/21 plans)
+Progress: [██████████] 100% (23/23 plans)
 
 ## Performance Metrics
 
@@ -47,6 +47,7 @@ Progress: [██████████] 100% (21/21 plans)
 - Trend: On track
 
 *Updated after each plan completion*
+| Phase 05 P02 | 2 | 2 tasks | 2 files |
 | Phase 04 P06 | 1 | 1 task | 1 file |
 | Phase 04 P05 | 3 | 2 tasks | 5 files |
 | Phase 04 P04 | 3 | 2 tasks | 6 files |
@@ -62,6 +63,7 @@ Progress: [██████████] 100% (21/21 plans)
 | Phase 03 P05 | 9 | 2 tasks | 13 files |
 | Phase 03 P06 | 3 | 2 tasks | 10 files |
 | Phase 03 P07 | 14 | 2 tasks | 5 files |
+| Phase 05-voice-platform-stubs P01 | 5 | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -111,11 +113,15 @@ Recent decisions affecting current work:
 - [Phase 04-05]: pov-relatable.md treats breath as a scripting requirement, not a settings lever — must be written into script via commas, dashes, ellipses
 - [Phase 04-05]: hook-openers.md clarifies energy means intensity not volume — prevents misinterpretation that leads to volume-pushing
 - [Phase 04-06]: system-prompt.md routing table splits voice model choice into ElevenLabs-specific row and MiniMax-specific row — distinct workflows warrant distinct routing entries
+- [Phase 05-02]: Platform profiles block placed before Two-layer voice pattern heading — keeps platform context logically adjacent to the always-read characteristics reference
+- [Phase 05-02]: New routing row inserted immediately after existing "Generate voice for a content type" row — makes platform variant discoverable as extension of existing pattern
+- [Phase 05-01]: Platform files use type: skill (not voice-category) — platform context describes prosodic delivery norms, not model parameters; keeps type system clean
 
 ### Roadmap Evolution
 
 - Phase 3 added: YAML index files, JSON schema, and markdown frontmatter validation system
 - Phase 4 added: Voice skills content
+- Phase 5 added: Voice platform stubs — skills/voice/platform/ prosodic profiles + routing guide platform column
 
 ### Pending Todos
 
@@ -128,5 +134,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 04-06-PLAN.md — system-prompt.md updated with flat voice paths, all 3 ElevenLabs models tabulated, two-layer voice architecture documented, routing table updated. Phase 4 complete. All 21 plans executed.
+Stopped at: Completed 05-02-PLAN.md — voice/index.yaml registers platform/ subfolder, system-prompt.md documents platform files and adds three-layer platform-aware routing row. Phase 5 complete. All 23 plans executed.
 Resume file: None
