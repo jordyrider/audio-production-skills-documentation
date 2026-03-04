@@ -2,13 +2,13 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-last_updated: "2026-03-03T23:39:01.429Z"
+status: in_progress
+last_updated: "2026-03-04T02:01:52Z"
 progress:
-  total_phases: 3
+  total_phases: 4
   completed_phases: 3
-  total_plans: 15
-  completed_plans: 15
+  total_plans: 21
+  completed_plans: 16
 ---
 
 # Project State
@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-03)
 
 **Core value:** Claude has enough structured, validated knowledge to generate precise, tool-ready prompts from a creative brief without guessing.
-**Current focus:** Phase 3 - YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System
+**Current focus:** Phase 4 - Voice Skills Content
 
 ## Current Position
 
-Phase: 3 of 3 (YAML Index Files, JSON Schema, and Markdown Frontmatter Validation System)
-Plan: 7 of 7 in current phase (complete)
-Status: ALL PHASES COMPLETE — 03-07 complete
-Last activity: 2026-03-04 — 03-07 complete: CLI validator (scripts/validate-frontmatter.js) + VS Code integration (.vscode/settings.json, .vscode/tasks.json) created; all 39 files pass validation
+Phase: 4 of 4 (Voice Skills Content)
+Plan: 1 of 6 in current phase (complete)
+Status: IN PROGRESS — 04-01 complete
+Last activity: 2026-03-04 — 04-01 complete: Migrated 5 voice category files from nested subfolders to flat skills/voice/ structure; updated index.yaml to remove sub_folders block and list all 6 files directly
 
-Progress: [██████████] 100%
+Progress: [████████░░] 76% (16/21 plans)
 
 ## Performance Metrics
 
@@ -47,6 +47,7 @@ Progress: [██████████] 100%
 - Trend: On track
 
 *Updated after each plan completion*
+| Phase 04 P01 | 1 | 2 tasks | 6 files |
 | Phase 02-schema-and-content P01 | 2 | 2 tasks | 4 files |
 | Phase 02-schema-and-content P05 | 1 | 2 tasks | 1 files |
 | Phase 03 P01 | 2 | 2 tasks | 6 files |
@@ -92,10 +93,12 @@ Recent decisions affecting current work:
 - [Phase 03-06]: Speech model entries in minimax/index.yaml omit genre_ids field — speech models are not music models; omitting signals intentional non-applicability
 - [Phase 03-06]: tools/minimax/index.yaml has type tools-index (same as tools/index.yaml) — tool folders use same type at all hierarchy levels
 - [Phase 03-07]: templates/tool.md provider/model set to placeholder strings (not null) — tool schema requires these as identity fields never null; template must demonstrate valid structure
+- [Phase 04-01]: Voice category files use flat structure under skills/voice/ — subfolders removed to simplify routing and downstream plan references
 
 ### Roadmap Evolution
 
 - Phase 3 added: YAML index files, JSON schema, and markdown frontmatter validation system
+- Phase 4 added: Voice skills content
 
 ### Pending Todos
 
@@ -108,5 +111,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 03-07-PLAN.md — CLI validator and VS Code integration created; all 39 skills/*.md files pass validation. ALL PHASE 3 PLANS (7/7) COMPLETE. ALL 3 PHASES COMPLETE.
+Stopped at: Completed 04-01-PLAN.md — 5 voice category files migrated to flat structure, index.yaml updated. Phase 4 plan 1 of 6 complete.
 Resume file: None
