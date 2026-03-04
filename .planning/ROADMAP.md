@@ -71,3 +71,18 @@ Phases execute in numeric order: 1 → 2 → 3
 | 1. Scaffold | 3/3 | Complete | 2026-03-03 |
 | 2. Schema and Content | 5/5 | Complete | 2026-03-03 |
 | 3. YAML + Schema + Validation | 7/7 | Complete   | 2026-03-03 |
+
+### Phase 4: Voice skills content
+
+**Goal:** Complete, filled voice skills layer — characteristics.md vocabulary reference, all ElevenLabs model files, all MiniMax speech model files filled, all 5 voice category files migrated to flat structure and filled, updated indexes, and system-prompt.md routing updated. After this phase, Claude can generate precise, tool-ready voice prompts using structured skill files.
+**Requirements**: D1, D2, D3, D4, D5, D6
+**Depends on:** Phase 3
+**Plans:** 6 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Migrate voice category files to flat structure + update skills/voice/index.yaml
+- [ ] 04-02-PLAN.md — Fill characteristics.md (Layer 1 voice vocabulary) + create elevenlabs/index.yaml
+- [ ] 04-03-PLAN.md — Create 3 ElevenLabs model tool files (multilingual v2, turbo v2.5, v3)
+- [ ] 04-04-PLAN.md — Fill all 6 MiniMax speech model stubs (02, 2.6, 2.8 — HD and Turbo)
+- [ ] 04-05-PLAN.md — Fill 5 voice category files with draft content + Settings Guidance
+- [ ] 04-06-PLAN.md — Update system-prompt.md: flat paths, ElevenLabs models, two-layer voice pattern
