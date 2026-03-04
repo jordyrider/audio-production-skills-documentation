@@ -121,5 +121,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 04-03-PLAN.md — three ElevenLabs model tool files created at draft status; eleven_v3.md has full 6-category audio tag reference and stability modes. Phase 4 plan 3 of 6 complete.
+Stopped at: Completed 04-04-PLAN.md — all 6 MiniMax speech stub files promoted to draft; reference file pattern established (speech-02-hd.md canonical, others reference it); 2.8 tone tag syntax documented. Phase 4 plan 4 of 6 complete.
 Resume file: None
