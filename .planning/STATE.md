@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: in_progress
-last_updated: "2026-03-04T02:09:00Z"
+last_updated: "2026-03-04T02:12:36Z"
 progress:
   total_phases: 4
-  completed_phases: 3
+  completed_phases: 4
   total_plans: 21
-  completed_plans: 20
+  completed_plans: 21
 ---
 
 # Project State
@@ -23,11 +23,11 @@ See: .planning/PROJECT.md (updated 2026-03-03)
 ## Current Position
 
 Phase: 4 of 4 (Voice Skills Content)
-Plan: 5 of 6 in current phase (complete)
-Status: IN PROGRESS — 04-05 complete
-Last activity: 2026-03-04 — 04-05 complete: all 5 voice category stub files promoted to draft; Settings Guidance sections in Layer 1 vocabulary; deadpan documented as valid target in meme-quotes; breath/micro-pauses as core tools in pov-relatable
+Plan: 6 of 6 in current phase (complete)
+Status: COMPLETE — all 21 plans executed
+Last activity: 2026-03-04 — 04-06 complete: system-prompt.md updated with flat voice paths, all 3 ElevenLabs models, and two-layer voice architecture pattern
 
-Progress: [████████░░] 95% (20/21 plans)
+Progress: [██████████] 100% (21/21 plans)
 
 ## Performance Metrics
 
@@ -47,6 +47,7 @@ Progress: [████████░░] 95% (20/21 plans)
 - Trend: On track
 
 *Updated after each plan completion*
+| Phase 04 P06 | 1 | 1 task | 1 file |
 | Phase 04 P05 | 3 | 2 tasks | 5 files |
 | Phase 04 P04 | 3 | 2 tasks | 6 files |
 | Phase 04 P03 | 3 | 2 tasks | 3 files |
@@ -109,6 +110,7 @@ Recent decisions affecting current work:
 - [Phase 04-05]: instructional.md sets style to 0.0 — only category with zero style amplification; added expressiveness is distraction in comprehension-first content
 - [Phase 04-05]: pov-relatable.md treats breath as a scripting requirement, not a settings lever — must be written into script via commas, dashes, ellipses
 - [Phase 04-05]: hook-openers.md clarifies energy means intensity not volume — prevents misinterpretation that leads to volume-pushing
+- [Phase 04-06]: system-prompt.md routing table splits voice model choice into ElevenLabs-specific row and MiniMax-specific row — distinct workflows warrant distinct routing entries
 
 ### Roadmap Evolution
 
@@ -126,5 +128,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-04
-Stopped at: Completed 04-05-PLAN.md — all 5 voice category files promoted to draft; Settings Guidance in Layer 1 vocabulary; meme-quotes deadpan documented; pov-relatable breath-as-scripting-tool pattern established. Phase 4 plan 5 of 6 complete.
+Stopped at: Completed 04-06-PLAN.md — system-prompt.md updated with flat voice paths, all 3 ElevenLabs models tabulated, two-layer voice architecture documented, routing table updated. Phase 4 complete. All 21 plans executed.
 Resume file: None
