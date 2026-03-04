@@ -86,3 +86,14 @@ Plans:
 - [ ] 04-04-PLAN.md — Fill all 6 MiniMax speech model stubs (02, 2.6, 2.8 — HD and Turbo)
 - [ ] 04-05-PLAN.md — Fill 5 voice category files with draft content + Settings Guidance
 - [ ] 04-06-PLAN.md — Update system-prompt.md: flat paths, ElevenLabs models, two-layer voice pattern
+
+### Phase 5: Voice platform stubs
+
+**Goal:** A skills/voice/platform/ directory with 3 platform prosodic profile stub files (tiktok.md, youtube-shorts.md, instagram-reels.md), a platform/index.yaml registry, an updated skills/voice/index.yaml with sub_folders registration, and system-prompt.md updated with platform-aware routing. Claude can now route by content type + platform + model.
+**Requirements**: PLAT-01, PLAT-02, PLAT-03
+**Depends on:** Phase 4
+**Plans:** 2 plans
+
+Plans:
+- [ ] 05-01-PLAN.md — Create 3 platform stub files + platform/index.yaml
+- [ ] 05-02-PLAN.md — Update skills/voice/index.yaml sub_folders + system-prompt.md routing

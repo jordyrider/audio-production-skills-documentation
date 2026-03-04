@@ -69,6 +69,14 @@
 - [x] **YAML-09**: Create `scripts/validate-frontmatter.js` — Node CLI that validates all skills/*.md frontmatter, outputs errors in `filename:line:col: message` format, exits 1 on any error
 - [x] **YAML-10**: Create `.vscode/settings.json` (YAML schema associations for index.yaml files) and `.vscode/tasks.json` (Validate Frontmatter task with problem matcher routing errors to Problems panel)
 
+## Phase 5 Requirements
+
+### Voice Platform Stubs
+
+- [ ] **PLAT-01**: Create `skills/voice/platform/` directory with 3 stub files — `tiktok.md`, `youtube-shorts.md`, `instagram-reels.md` — each with `type: skill`, `status: stub`, `## Prosodic Profile` section outline (Pacing, Energy, Register, Expressiveness, Pause and Breath, Hook Density subsections), and `## Platform Notes` placeholder
+- [ ] **PLAT-02**: Create `skills/voice/platform/index.yaml` with `type: subgenre-index` and 3 registry entries; update `skills/voice/index.yaml` to add a `sub_folders` array with the platform/ entry
+- [ ] **PLAT-03**: Update `skills/system-prompt.md` — add Platform profiles table to the Voice section and a new routing row ("Generate voice for a content type + platform") to the Routing Guide, documenting the three-layer read order: characteristics.md → platform file → voice category file → model file
+
 ## Out of Scope
 
 | Feature | Reason |
@@ -116,11 +124,15 @@
 | YAML-08 | Phase 3 | Complete |
 | YAML-09 | Phase 3 | Complete |
 | YAML-10 | Phase 3 | Complete |
+| PLAT-01 | Phase 5 | Pending |
+| PLAT-02 | Phase 5 | Pending |
+| PLAT-03 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 22 total — mapped to phases: 22 — unmapped: 0 ✓
 - Phase 3 requirements: 10 total — mapped to plans: 10 — unmapped: 0 ✓
+- Phase 5 requirements: 3 total — mapped to plans: 3 — unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-03*
-*Last updated: 2026-03-03 — 03-01 complete: YAML-01, YAML-02 marked complete*
+*Last updated: 2026-03-04 — Phase 5 requirements added: PLAT-01, PLAT-02, PLAT-03*
